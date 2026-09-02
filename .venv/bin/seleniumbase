@@ -1,6 +1,0 @@
-#!/Users/edgardopaz-romero/Development/tm-scraper/.venv/bin/python3.12
-import sys
-from seleniumbase.console_scripts.run import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
