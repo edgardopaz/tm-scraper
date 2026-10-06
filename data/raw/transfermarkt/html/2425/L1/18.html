@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<script type="text/javascript" data-description="sourcepoint stub code">
+    !function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+</script>
+<script data-description="sourcepoint configuration">
+window._sp_ = {
+    config: {"accountId":1254,"propertyId":7435,"gdpr":{"consentLanguage":"en-US","targetingParams":{"acps":"false"}},"baseEndpoint":"https://cdn.privacy-mgmt.com","isSPA":true,"cpPropertyId":"c43c8c9c"}}
+</script>
+<script src="https://cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js" async></script>
+<script type="text/javascript" data-description="contentpass integration">
+    (function() {
+        var cpBaseUrl = 'https://cp.transfermarkt.us';
+        var cpController = cpBaseUrl + '/now.js';
+        var cpPropertyId = 'c43c8c9c';
+
+        !function(C,o,n,t,P,a,s){C['CPObject']=n;C[n]||(C[n]=function(){
+        (C[n].q=C[n].q||[]).push(arguments)});C[n].l=+new Date;a=o.createElement(t);
+        s=o.getElementsByTagName(t)[0];a.src=P;s.parentNode.insertBefore(a,s)}
+        (window,document,'cp','script',cpController);
+
+        !function(C,o,n,t,P){if(!C[n].patched){cp('extension','authenticate');P=C[n].q.push;
+        C[n].q.push=function(a){if(a[0]==='authenticate'){if((o['cookie']||'').indexOf('_cpauthhint=')===-1&&
+        !(C['localStorage']||{})['_cpuser']&&C.location.href.toLowerCase().indexOf('cpauthenticated')===-1){
+        t={isLoggedIn:function(){return false;},hasValidSubscription:function(){return false;}};
+        (typeof a[1]==='function'&&a[1](null,t));C[n].afp=true;P.apply(C[n].q,[['authenticate',null]]);
+        return t;}}P.apply(C[n].q,[a]);}}}
+        (window,document,'cp',false);
+
+        cp('create', cpPropertyId, {
+        baseUrl: cpBaseUrl
+        });
+
+        cp('render', {
+        onFullConsent: function() {
+            console.log('[DEMO] onFullConsent');
+        }
+        })
+    })()
+</script>
+
+<script type="text/javascript" data-description="contentpass sourcepoint fast path">
+(function () {
+    cp('authenticate', function(err, user) {
+        if (err || (!user.isLoggedIn() && !user.hasValidSubscription())) {
+        // console.log('[SPCP] Taking fast path');
+        (function spExecMsg() {
+            if (window._sp_ && window._sp_.executeMessaging) {
+            if (!window._sp_.config.isSPA) {
+                // console.warn('[SPCP] Sourcepoint not in SPA mode!');
+            } else if (window._sp_.version) {
+                // console.log('[SPCP] Sourcepoint already running');
+            } else {
+                // console.log('[SPCP] Starting Sourcepoint');
+                window._sp_.executeMessaging();
+            }
+            } else {
+            // console.log('[SPCP] Sourcepoint not loaded yet. Retrying.');
+            setTimeout(spExecMsg, 10);
+            }
+        })();
+        }
+    });
+    })();
+</script>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" sizes="192x192" href="/android-chrome-192x192.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
+<meta name="keywords" content="Borussia Mönchengladbach,Germany" />
+<meta name="description" content="Mönchengladbach at a glance: The detailed squad overview with all players and data in the season 24/25. " />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://tmsi.akamaized.net/tm_logo.png" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Borussia Mönchengladbach - Detailed squad 24/25 (Detailed view)" />
+<meta property="twitter:title" content="Borussia Mönchengladbach - Detailed squad 24/25 (Detailed view)" />
+<meta property="og:url" content="https://www.transfermarkt.us/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="de" rel="alternate" href="https://www.transfermarkt.de/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="de-LU" rel="alternate" href="https://www.transfermarkt.de/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="de-AT" rel="alternate" href="https://www.transfermarkt.at/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="de-CH" rel="alternate" href="https://www.transfermarkt.ch/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="tr" rel="alternate" href="https://www.transfermarkt.com.tr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="it-CH" rel="alternate" href="https://www.transfermarkt.it/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="it" rel="alternate" href="https://www.transfermarkt.it/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="pl" rel="alternate" href="https://www.transfermarkt.pl/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en-GB" rel="alternate" href="https://www.transfermarkt.co.uk/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en-IE" rel="alternate" href="https://www.transfermarkt.co.uk/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es" rel="alternate" href="https://www.transfermarkt.es/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-ES" rel="alternate" href="https://www.transfermarkt.es/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-CL" rel="alternate" href="https://www.transfermarkt.es/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-VE" rel="alternate" href="https://www.transfermarkt.es/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-EC" rel="alternate" href="https://www.transfermarkt.es/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-CU" rel="alternate" href="https://www.transfermarkt.es/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="nl" rel="alternate" href="https://www.transfermarkt.nl/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="pt" rel="alternate" href="https://www.transfermarkt.pt/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="ru" rel="alternate" href="https://www.transfermarkt.world/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="fr-CH" rel="alternate" href="https://www.transfermarkt.fr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="fr" rel="alternate" href="https://www.transfermarkt.fr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="fr-CA" rel="alternate" href="https://www.transfermarkt.fr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="fr-CI" rel="alternate" href="https://www.transfermarkt.fr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="fr-LU" rel="alternate" href="https://www.transfermarkt.fr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="fr-BE" rel="alternate" href="https://www.transfermarkt.fr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="pt-BR" rel="alternate" href="https://www.transfermarkt.com.br/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en-US" rel="alternate" href="https://www.transfermarkt.us/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en-CA" rel="alternate" href="https://www.transfermarkt.us/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en-IN" rel="alternate" href="https://www.transfermarkt.co.in/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en-ZA" rel="alternate" href="https://www.transfermarkt.co.za/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="x-default" rel="alternate" href="https://www.transfermarkt.com/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="en" rel="alternate" href="https://www.transfermarkt.com/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="nl-BE" rel="alternate" href="https://www.transfermarkt.be/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="ro" rel="alternate" href="https://www.transfermarkt.ro/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="el-GR" rel="alternate" href="https://www.transfermarkt.gr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="ko-KR" rel="alternate" href="https://www.transfermarkt.co.kr/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-AR" rel="alternate" href="https://www.transfermarkt.com.ar/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-MX" rel="alternate" href="https://www.transfermarkt.mx/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-CO" rel="alternate" href="https://www.transfermarkt.co/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="es-PE" rel="alternate" href="https://www.transfermarkt.pe/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="ja" rel="alternate" href="https://www.transfermarkt.jp/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link hreflang="id" rel="alternate" href="https://www.transfermarkt.co.id/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-main.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/stylesheets/main_desktop.css?lm=1788866282" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-discover.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-button-list.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-link-list.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-print.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/stylesheets/vereinsseite.css?lm=1788866282" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-statistics.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-game-report.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-chosen.min.css?lm=1788866724" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/css/stylesheets/main.css?lm=1788866282" />
+<link rel="stylesheet" type="text/css" href="https://tmssl.akamaized.net/styles/tm-club-profile.min.css?lm=1788866724" />
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/vendor/jquery.min.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/assets/b7c5571cf8957553f95f6d9069eaed67/jquery.ba-bbq.min.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/main.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/chosen.ajaxaddition.jquery.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/functions.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/main_desktop.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/chosen.jquery.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/consent/bundle.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+console.info("%c [TM-ADs] Initialize Ads on domain .us (verein/kader)", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot skyscraper (/div-gpt-ad-skyscraper) for footballco", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot billboard (/div-gpt-ad-top_banner) for footballco", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Render slot fullsize_contentad (/div-gpt-ad-bottom_banner) for footballco", "background: #282828; color: #bada55")
+    var oddsServe = function(placement,competition,match,node) {
+        if (!node){
+            var s=document.readyState==='loading'?document.getElementsByTagName('script'):[];
+            node=s.length?s[s.length-1].parentNode:null;
+        }
+        oddsServe.queue.push({contentUnitId:placement,competition:competition,match:match,node:node});
+    }
+    
+    oddsServe.onInit=function(callbacks){
+        if (typeof window.__tcfapi === 'function') {
+            __tcfapi('addEventListener', 2, function(tcdata, success) {
+                let tcf20compatibleString;
+                if(success) {
+                    if (tcdata.eventStatus === 'useractioncomplete') {
+                        tcf20compatibleString = tcdata.tcString;
+                    } else if (tcdata.eventStatus === 'tcloaded') {
+                        tcf20compatibleString = tcdata.tcString;
+                    }
+                    callbacks.setGdprOptions({
+                        gdpr:1,
+                        gdpr_pd:1,
+                        gdpr_consent:tcf20compatibleString,
+                    });
+                }
+            });
+        } else {
+            console.warn('E2: __tcfapi not found');
+        }
+    };
+    oddsServe.options={gdpr_wait:true};
+    oddsServe.queue=[];
+console.info("%c [TM-ADs] Add adslot configuration for 3 ad slots skyscraper | billboard | fullsize_contentad", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Adslots without configuration: fireplace | skyscraper-left-bound | skyscraperbtf | richmedia | 1by1px", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Register slots with JS vendor lib", "background: #282828; color: #bada55")
+window.addEventListener('load', () => {
+  const offset = window.matchMedia('(max-width: 768px)').matches ? 80 : 120;
+  document.querySelectorAll('[data-sticky]').forEach(node => {
+    const parent = node.parentElement;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) {
+        parent.style.position = 'sticky';
+        parent.style.top = `${offset}px`;
+        parent.style.zIndex = 12000000;
+        setTimeout(() => {
+          parent.style.removeProperty('position');
+          parent.style.removeProperty('top');
+          parent.style.removeProperty('z-index');
+        }, parseInt(node.dataset?.sticky) || 3000);
+        observer.unobserve(parent);
+      }
+    }, { rootMargin: `-${offset}px 0px 0px 0px`, threshold: 1 });
+    observer.observe(parent);
+  });
+});
+
+console.info("%c [TM-ADs] Render ad slots js for footballco", "background: #282828; color: #bada55")
+console.info("%c [TM-ADs] Added external ad script https://lngtd.com/transfermarkt-us.js for footballco on wettbewerbe_1_liga", "background: #282828; color: #bada55")
+/*]]>*/
+</script>
+<title>Borussia Mönchengladbach - Detailed squad 24/25 (Detailed view) | Transfermarkt</title>
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152.png">
+    
+<script type="text/javascript">
+   tmData = {
+       loggedIn : "0",
+       tmTraffic: "0",
+   };
+</script>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    let utmVars = {
+        eVar1: urlParams.get('utm_campaign'),
+        eVar6: urlParams.get('utm_source'),
+        eVar24: urlParams.get('utm_medium')
+    };
+    Object.keys(utmVars).forEach((k) => utmVars[k] == null && delete utmVars[k]);
+
+    window.tmAnalyticsDataLayer = window.tmAnalyticsDataLayer || [];
+    window.tmAnalytics = {
+        dimensions: {
+            eVar7: 'Borussia Mönchengladbach (18)',
+			eVar8: 'Bundesliga (L1)',
+			eVar9: 'Germany',
+			eVar10: 'https://www.transfermarkt.us/borussia-monchengladbach/kader/verein/18',
+			...utmVars,
+            evar19: window.location.href,
+            eVar35 : '',
+			eVar37 : '',
+                },
+    properties: {
+        prop2: 'statistik',
+		prop3: 'verein',
+		prop4: 'kader',
+		prop5: '18',
+		prop14: 'statistik_verein_kader_18',
+		prop9: window.location.hostname,
+        prop10: window.location.href,
+        prop1 : 'false',
+    },
+    pageDetails: {
+        pageViews: {
+            value: 1
+        },
+        isErrorPage: 'false',
+            isHomepage: 'false',
+            name: 'Borussia Mönchengladbach - Detailed squad 24/25 (Detailed view) | Transfermarkt',
+            URL: window.location.href,
+            server: 'prod-tm-server-web-11139'
+    },
+    };
+
+function tmEventForLink(category, aTag, label) {
+    const url = new URL(aTag.href);
+    const link = url.pathname + url.search;
+    tmEvent(category, link, label);
+}
+
+function tmEvent(category, action, label, detail = '') {
+    if (typeof gtag === 'function') {
+        gtag('event',
+            action,
+            {
+                'event_category': category,
+                'event_label': label
+            }
+        );
+    }
+
+    const ev = {
+        event: 'tmEvent',
+        tmEvent: {
+            customDimensions: {
+                eVars: {
+                    ...tmAnalytics.dimensions
+                },
+                props: {
+                    prop6: category,
+                    prop7: action,
+                    prop8: label,
+                    prop17: detail,
+                    ...tmAnalytics.properties
+                }
+            },
+            event1to100: {
+                event7: {
+                    value: 1
+                },
+                event8: null,
+            },
+            session: {
+                web: {
+                    webInteraction: {
+                        linkClicks: {
+                            value: 1
+                        }
+                    },
+                    webPageDetails: {
+                        ...tmAnalytics.pageDetails,
+                        ...{
+                            pageViews: {
+                                value: null
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    };
+
+     if (!window._satellite) {
+        once = false;
+        window._satellite = { _monitors: [{
+            ruleTriggered: (e) => {
+                if (once) {
+                    return;
+                }
+                once = true;
+                setTimeout(() => {
+                    tmAnalyticsDataLayer.push(ev);
+                    tmAnalyticsDataLayer.push(function (dl) {
+                        const state = dl.getState();
+                    });
+                }, 1);
+            }
+        }] };
+    } else {
+        tmAnalyticsDataLayer.push(ev);
+        tmAnalyticsDataLayer.push(function (dl) {
+            const state = dl.getState();
+        });
+    }
+}
+function tmTrackingAndAds() {
+    if (typeof gtag === 'function') {
+        gtag("event", "page_view", {
+            page_path: "/jsContent" + window.location.pathname
+        });
+    }
+
+    tmAnalyticsDataLayer.push({
+        event: 'tmTrackingAndAds',
+        tmTrackingAndAds: {
+            customDimensions: {
+                eVars: tmAnalytics.dimensions,
+                props: tmAnalytics.properties
+            },
+            event1to100: {
+                event7: null,
+                event8: {
+                    value: 1
+                }
+            },
+            session: {
+                web: {
+                    webInteraction: {
+                        linkClicks: {
+                            value: null
+                        }
+                    },
+                    webPageDetails: {
+                        ...tmAnalytics.pageDetails,
+                        ...{
+                            pageViews: {
+                                value: 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    });
+    tmAnalyticsDataLayer.push(function (dl) {
+        const state = dl.getState();
+    });
+}
+function tmTiming(value, name, event_category, event_label) {
+    console.log('tmTiming', value, name, event_category, event_label);
+}
+
+        !function(e,a,n,t){var i=e.head;if(i){
+            if (a) return;
+            var o=e.createElement("style");
+            o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+        (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
+
+            !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+                []).push(o),n[o]=function(){var u=arguments;return new Promise(
+                function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+            (window,["alloy"]);
+</script>
+<tm-consent
+    type="adobe"
+    no-checkbox
+    embed="PHNjcmlwdCBhc3luYyBzcmM9Imh0dHBzOi8vYXNzZXRzLmFkb2JlZHRtLmNvbS83Y2FkY2E5NWRkOWEvY2Q0YWI4ODRkMjMxL2xhdW5jaC0wMTI3MmI0MDBjNjUubWluLmpzIj48L3NjcmlwdD4=">
+</tm-consent>
+
+    <script type="text/javascript" src="https://tmssl.akamaized.net//ads/ads.js"></script>
+    <script type="text/javascript">
+        window.tmGaId = "UA-3816204-13";
+
+        function sendIvwData() {}
+    </script>
+            <link rel="canonical" href="https://www.transfermarkt.us/borussia-monchengladbach/kader/verein/18">
+    </head>
+
+<body class="desktop " itemscope itemtype="http://schema.org/WebPage" data-tm-tld="us" data-cmp-layer-id="1404577" data-db-name="us-der-zauberzwerg" >
+    
+        <div id="main">
+                    <button id="back-to-top" title="Nach oben">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.795" height="10.009" viewBox="0 0 17.795 10.009">
+                    <path id="angle-up" d="M20.683,17.01a1.112,1.112,0,0,1-.786-.326l-7-7-7,7a1.112,1.112,0,1,1-1.573-1.573l7.785-7.785a1.112,1.112,0,0,1,1.573,0l7.785,7.785a1.112,1.112,0,0,1-.786,1.9Z" transform="translate(-4 -7)" fill="#fff"/>
+                </svg>
+            </button>
+            <div class="werbung-skyscraper-left-bound-container">
+                            </div>
+            <div class="werbung-skyscraper-container">
+                <div class="werbung ad-placement-note werbung-skyscraper" data-ad-placement-note="Advertisement">
+  <div id="div-gpt-ad-skyscraper" style="min-width: 160px; min-height: 600px;"></div>
+</div>
+            </div>
+
+            <div class="werbung-skyscraperbtf-container">
+                            </div>
+        
+        <div id="tm-overlay"></div>
+
+                    <div class="tm-header__box">
+                <!-- logo  -->
+                <a href="/" class="tm-header__logo" onclick="tmEvent('hauptnavi', '/', 'TM-Logo');">
+                    <img src="https://tmsi.akamaized.net/head/tm_logo_rebrush.svg"
+                         height="62"
+                         width="156"
+                         title="Transfermarkt"
+                         alt="Transfermarkt"
+                    >
+                </a>
+
+                <!-- domainswitcher  -->
+                <div class="domin-swicher">
+                    <tm-domain-switcher
+                        tld="us"
+                        translations='{&quot;chooseYourDomain&quot;:&quot;Choose your domain&quot;}'></tm-domain-switcher>
+                </div>
+
+                <!-- live -->
+                <tm-live-match-count
+                    class="tm-header__live"
+                    auto-request                    content='{&quot;liveMatches&quot;:&quot;Live matches&quot;,&quot;liveMatch&quot;:&quot;Live maches&quot;,&quot;live&quot;:&quot;Live&quot;}'></tm-live-match-count>
+
+                <!-- Search -->
+                                    <div class="tm-header__search " id="schnellsuche-platz">
+                        <form name="schnellsuche" id="schnellsuche" class="tm-header__form" action="/schnellsuche/ergebnis/schnellsuche">
+                            <input type="text" name="query" class="tm-header__input--search-field" onClick="" placeholder="Enter your search term" autocorrect="off" spellcheck="false" value="" />
+                            <button type="submit" value="" class="tm-header__input--search-send" alt="Search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+                                    <path d="M17.825,16.847 L14.28,13.303 C17.072,9.987 16.756,5.061 13.563,2.13 C10.37,-0.8 5.435,-0.695 2.37,2.37 C-0.695,5.435 -0.8,10.37 2.13,13.563 C5.061,16.756 9.987,17.072 13.303,14.28 L16.847,17.825 C17.121,18.069 17.538,18.057 17.797,17.797 C18.057,17.538 18.069,17.121 17.825,16.847 z M1.418,8.108 C1.417,4.413 4.412,1.417 8.107,1.416 C11.802,1.415 14.798,4.411 14.799,8.106 C14.799,11.801 11.804,14.797 8.108,14.797 C4.414,14.797 1.419,11.803 1.418,8.108 z" fill="#000" />
+                                </svg>
+                            </button>
+                        </form>
+                        <a href="/detailsuche/spielerdetail/suche" title="to detailed player search" id="detailsuche-head" class="tm-header__search-detail">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0, 0, 18, 18">
+                                <path d="M3.138,3.558 C3.137,1.593 4.727,0 6.69,0 C8.652,-0 10.243,1.592 10.243,3.556 C10.243,5.521 8.653,7.113 6.69,7.113 C4.729,7.113 3.138,5.522 3.138,3.558 z M8.233,13.187 C8.261,11.778 8.861,10.442 9.893,9.486 C9.967,9.418 9.997,9.315 9.971,9.219 C9.946,9.119 9.863,9.044 9.76,9.03 C9.331,8.938 8.893,8.893 8.454,8.895 L4.906,8.895 C3.583,8.808 2.286,9.298 1.35,10.239 C0.414,11.179 -0.07,12.479 0.021,13.804 C-0.085,14.656 0.209,15.509 0.817,16.114 C1.425,16.72 2.279,17.009 3.13,16.897 L9.266,16.897 C9.372,16.895 9.467,16.831 9.508,16.732 C9.549,16.634 9.527,16.521 9.453,16.444 C8.665,15.544 8.232,14.387 8.236,13.191 z M17.805,17.804 C17.68,17.93 17.511,18 17.334,18 C17.158,18 16.989,17.93 16.864,17.804 L15.237,16.177 C13.686,17.242 11.58,16.949 10.378,15.501 C9.176,14.052 9.274,11.926 10.604,10.594 C11.934,9.263 14.058,9.165 15.505,10.368 C16.952,11.571 17.244,13.68 16.181,15.233 L17.805,16.866 C18.065,17.126 18.065,17.548 17.805,17.808 z M15.484,13.182 C15.484,11.911 14.455,10.881 13.186,10.881 C11.917,10.881 10.888,11.911 10.888,13.182 C10.888,14.452 11.917,15.482 13.186,15.482 C14.455,15.482 15.484,14.452 15.484,13.182 z" fill="#000" />
+                            </svg>
+                        </a>
+                                            </div>
+                
+                <!-- login button -->
+                <div class="tm-header__login">
+                    <tm-userbox translations='{&quot;addFavorite&quot;:&quot;Add favourite&quot;,&quot;adminArea&quot;:&quot;Admin area&quot;,&quot;adminTools&quot;:&quot;Admin tools&quot;,&quot;allFavoriteLinkText&quot;:&quot;Go to all my favourite links&quot;,&quot;applyAsModOrDatascout&quot;:&quot;Apply as a moderator or datascout&quot;,&quot;checkAllNews&quot;:&quot;Check all news&quot;,&quot;checkAllRumours&quot;:&quot;Check all rumours&quot;,&quot;chooseYourDomain&quot;:&quot;Choose your domain&quot;,&quot;clickAgain&quot;:&quot;Click again to copy shortlink to your clipboard&quot;,&quot;clubBoard&quot;:&quot;Club forum&quot;,&quot;confirm&quot;:&quot;Alright&quot;,&quot;copied&quot;:&quot;Copied to your clipboard&quot;,&quot;copyLink&quot;:&quot;copy link&quot;,&quot;createAccount&quot;:&quot;Create your account&quot;,&quot;createNewMessage&quot;:&quot;Create a new message&quot;,&quot;createShortlink&quot;:&quot;create a shortlink&quot;,&quot;createShortNews&quot;:&quot;Create memo&quot;,&quot;dashboard&quot;:&quot;Overview&quot;,&quot;dataAdministration&quot;:&quot;Data administration&quot;,&quot;debug&quot;:&quot;Debug&quot;,&quot;deleteAll&quot;:&quot;Delete all&quot;,&quot;deleteConfirm&quot;:&quot;Yes, delete all&quot;,&quot;editText&quot;:&quot;Edit&quot;,&quot;forgotPassword&quot;:&quot;Forgot password?&quot;,&quot;forgotUsername&quot;:&quot;Forgot username?&quot;,&quot;forgotLoginDetails&quot;:&quot;Forgot your login details?&quot;,&quot;forum&quot;:&quot;forum&quot;,&quot;groundhoppingTool&quot;:&quot;Groundhopping Tool&quot;,&quot;lastMatch&quot;:&quot;last match&quot;,&quot;signin&quot;:&quot;Log in&quot;,&quot;login&quot;:&quot;Login&quot;,&quot;logOut&quot;:&quot;Log out&quot;,&quot;manageFavorites&quot;:&quot;Manage favourites&quot;,&quot;marketValue&quot;:&quot;market value&quot;,&quot;matchplan&quot;:&quot;Schedule&quot;,&quot;messages&quot;:&quot;Private messages&quot;,&quot;myClub&quot;:&quot;My club&quot;,&quot;myClubText&quot;:&quot;With a Transfermarkt account you can register your favourite club and find all important information about your club (matches, news, quick links). &quot;,&quot;myDreamTeam&quot;:&quot;My dream team&quot;,&quot;myFavorites&quot;:&quot;My favourites&quot;,&quot;myFavoritesText&quot;:&quot;With a Transfermarkt account, you can save any page as a favourite and then access it with one click.&quot;,&quot;myProfile&quot;:&quot;My profile&quot;,&quot;news&quot;:&quot;News&quot;,&quot;newsAdministration&quot;:&quot;News administration&quot;,&quot;nextMatch&quot;:&quot;next match&quot;,&quot;noNewNotifications&quot;:&quot;No new notifications&quot;,&quot;notifications&quot;:&quot;Notifications&quot;,&quot;notificationsDeletedAutomatically&quot;:&quot;Note: Notifications are automatically deleted after 30 days.&quot;,&quot;notifyDeleteMessage&quot;:&quot;Private messages older than 45 days will be deleted from time to time (except for data scouts and moderators)&quot;,&quot;or&quot;:&quot;or&quot;,&quot;other&quot;:&quot;Miscellaneous&quot;,&quot;overview&quot;:&quot;overview&quot;,&quot;password&quot;:&quot;Password&quot;,&quot;playerRatings&quot;:&quot;Player ratings&quot;,&quot;playerWatchlist&quot;:&quot;Players Watchlist&quot;,&quot;postponed&quot;:&quot;postponed&quot;,&quot;profile&quot;:&quot;Profile&quot;,&quot;progDebug&quot;:&quot;Prog. depanare&quot;,&quot;progProfile&quot;:&quot;Prog. profile&quot;,&quot;registerNow&quot;:&quot;Sign up now&quot;,&quot;rememberMe&quot;:&quot;Remember me&quot;,&quot;removeFavorite&quot;:&quot;Delete favourite&quot;,&quot;rumors&quot;:&quot;Rumours&quot;,&quot;schedule&quot;:&quot;Schedule&quot;,&quot;sessionExpired&quot;:&quot;Your session on Transfermarkt has expired. Please log in again.&quot;,&quot;sessionExpiredTitle&quot;:&quot;Session Expired&quot;,&quot;setting&quot;:&quot;Settings&quot;,&quot;shortlink&quot;:&quot;Shortlink&quot;,&quot;shortLinkCreationError&quot;:&quot;An Error occured creating the shortlink.&quot;,&quot;shortLinkHasBeenCreated&quot;:&quot;Shortlink has been created an was copied to your clipboard&quot;,&quot;shortLinkIsBeingCreated&quot;:&quot;Creating shortlink ...&quot;,&quot;showAllMessages&quot;:&quot;Show all messages&quot;,&quot;totalMarketValue&quot;:&quot;Total market value&quot;,&quot;translation&quot;:&quot;Translation&quot;,&quot;username&quot;:&quot;Username&quot;,&quot;whyRegister&quot;:&quot;Why register?&quot;,&quot;Bitte korrigieren Sie die markierten Felder&quot;:&quot;Please correct the highlighted fields&quot;,&quot;mindestensDreiZeichen&quot;:&quot;At least three characters&quot;,&quot;mindestensAchtZeichen&quot;:&quot;At least eight characters&quot;,&quot;pleaseCorrectFields&quot;:&quot;profil&quot;,&quot;minThreeCharacters&quot;:&quot;At least three characters&quot;,&quot;minEightCharacters&quot;:&quot;At least eight characters&quot;,&quot;noAtCharacter&quot;:&quot;The @ character is not allowed in the username&quot;,&quot;agentProfile&quot;:&quot;My Agency Profile&quot;}' page-title="Borussia Mönchengladbach - Detailed squad 24/25 (Detailed view) | Transfermarkt" tld="us" agent-profile=""  />
+                </div>
+            </div>
+        
+        
+                        <!-- mobile end -->
+            <nav class="main-navbar">
+                                    <a href="/" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/', 'DISCOVER')">
+                        DISCOVER                    </a>
+                                    <a href="/navigation/transfersundgeruechte" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/transfersundgeruechte', 'TRANSFERS & RUMOURS')">
+                        TRANSFERS & RUMOURS                    </a>
+                                    <a href="/navigation/marktwerte" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/marktwerte', 'MARKET VALUES')">
+                        MARKET VALUES                    </a>
+                                    <a href="/navigation/wettbewerbe" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/wettbewerbe', 'COMPETITIONS')">
+                        COMPETITIONS                    </a>
+                                    <a href="/navigation/statistiken" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/statistiken', 'STATISTICS')">
+                        STATISTICS                    </a>
+                                    <a href="/navigation/community" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/community', 'FORUM')">
+                        FORUM                    </a>
+                                    <a href="/navigation/gaming" class="main-navbar__lp-link " onclick="tmEvent('hauptnavi', '/navigation/gaming', 'GAMING')">
+                        GAMING                    </a>
+                                <div class="main-navbar__details">
+                    <div class="hamburger">
+                        <em></em>
+                    </div>
+                    <div class="dropdown-layer"></div>
+                    <div class="main-navbar__dropdown">
+                                                            <div class="recommendation">
+        
+    
+                            <div class="tm-discover__hero-container tm-discover__hero-container-grid tm-discover-container-grid">
+                    
+                                    <section class="tm-button-list__wrapper tm-button-list__wrapper--two-thirds  "><span class="tm-discover__h2">Recommendations</span><ul class="tm-button-list"><li><a
+                        href="/major-league-soccer/startseite/wettbewerb/MLS1"
+                        title="MLS"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/major-league-soccer/startseite/wettbewerb/MLS1' , '1_1', 'buttonList');"
+                    ><img
+                            src="https://img.a.transfermarkt.technology/logo/homepageWappen150x150/mls1.png?lm=4711"
+                            alt="Major League Soccer"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/premier-league/startseite/wettbewerb/GB1"
+                        title="Premier League"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/premier-league/startseite/wettbewerb/GB1' , '1_2', 'buttonList');"
+                    ><img
+                            src="https://img.a.transfermarkt.technology/logo/homepageWappen150x150/gb1.png?lm=4711"
+                            alt="Premier League"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/laliga/startseite/wettbewerb/ES1"
+                        title="LaLiga"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/laliga/startseite/wettbewerb/ES1' , '1_3', 'buttonList');"
+                    ><img
+                            src="https://img.a.transfermarkt.technology/logo/homepageWappen150x150/es1.png?lm=4711"
+                            alt="LaLiga"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/bundesliga/startseite/wettbewerb/L1"
+                        title="Bundesliga"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/bundesliga/startseite/wettbewerb/L1' , '1_4', 'buttonList');"
+                    ><img
+                            src="https://img.a.transfermarkt.technology/logo/homepageWappen150x150/l1.png?lm=4711"
+                            alt="Bundesliga"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/serie-a/startseite/wettbewerb/IT1"
+                        title="Serie A"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/serie-a/startseite/wettbewerb/IT1' , '1_5', 'buttonList');"
+                    ><img
+                            src="https://img.a.transfermarkt.technology/logo/homepageWappen150x150/it1.png?lm=4711"
+                            alt="Serie A"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li><li><a
+                        href="/ligue-1/startseite/wettbewerb/FR1"
+                        title="Ligue 1"
+                        target=""
+                        class="tm-button-list__list-item tm-button-list__list-item--big "
+                        onclick="tmEvent('recommendations_recommendation', '/ligue-1/startseite/wettbewerb/FR1' , '1_6', 'buttonList');"
+                    ><img
+                            src="https://img.a.transfermarkt.technology/logo/homepageWappen150x150/fr1.png?lm=4711"
+                            alt="Ligue 1"
+                            class="tm-button-list__image tm-button-list__image--big 1"
+                            width="54"
+                            height="36"
+                        ></a></li></ul></section>
+                                                                                
+        
+    
+                
+                                    <section class="tm-button-list__wrapper tm-button-list__wrapper--one-third  tm-button-list__desktop"><span class="tm-discover__h2">Player agents</span><ul class="tm-button-list"><li><a
+                        href="/agent-support/beraterIndex/berater"
+                        title="Agent support"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/agent-support/beraterIndex/berater' , '2_1', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-support.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Agent<br>support</a></li><li><a
+                        href="/berater/beraterfirmenuebersicht/berater"
+                        title="Agent statistics"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/berater/beraterfirmenuebersicht/berater' , '2_2', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-statistic.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Agent<br>statistics</a></li><li><a
+                        href="/premium-service/berater"
+                        title="Premium service"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/premium-service/berater' , '2_3', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/premium-service.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Premium<br>service</a></li></ul></section>
+                                                                                
+        
+    
+                
+                                            
+<section class="tm-link-list-container tm-link-list--full ">
+        <div
+        class="tm-link-list-element"
+        role="navigation"
+        aria-label=""
+    >
+                    
+                        
+                                            <ul
+    class="tm-link-list-unordered   recommendation__links"
+>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/statistik/neuestetransfers"
+                    title="Latest transfers"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/statistik/neuestetransfers' , '3_1','linkList');"
+                >
+                    Latest transfers
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/rumour-mill/detail/forum/154"
+                    title="Rumour Mill"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/rumour-mill/detail/forum/154' , '3_2','linkList');"
+                >
+                    Rumour Mill
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/aktuell/newsarchiv"
+                    title="All news"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/aktuell/newsarchiv' , '3_3','linkList');"
+                >
+                    All news
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/whatsMyValue"
+                    title="What's my value?"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/whatsMyValue' , '3_4','linkList');"
+                >
+                    What's my value?
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/spieler-statistik/wertvollstespieler/marktwertetop"
+                    title="Most valuable players in the world"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/spieler-statistik/wertvollstespieler/marktwertetop' , '3_5','linkList');"
+                >
+                    Most valuable players in the world
+                </a>
+                    </li>
+    </ul>
+                                            <ul
+    class="tm-link-list-unordered   recommendation__links"
+>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/major-league-soccer/marktwerte/wettbewerb/MLS1"
+                    title="Most valuable players MLS"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/major-league-soccer/marktwerte/wettbewerb/MLS1' , '3_6','linkList');"
+                >
+                    Most valuable players MLS
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/statistik/vertragslosespieler"
+                    title="Free agents"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/statistik/vertragslosespieler' , '3_7','linkList');"
+                >
+                    Free agents
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/statistik/endendevertraege"
+                    title="Contracts ending"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/statistik/endendevertraege' , '3_8','linkList');"
+                >
+                    Contracts ending
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/statistik/weltrangliste"
+                    title="FIFA World Ranking"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/statistik/weltrangliste' , '3_9','linkList');"
+                >
+                    FIFA World Ranking
+                </a>
+                    </li>
+            <li
+            class="tm-link-list-item"
+        >
+                            <a
+                    class="tm-link__arrow  "
+                    href="/online-betting/"
+                    title="Betting"
+                    target="_self"
+                    onclick="tmEvent('recommendations_recommendation', '/online-betting/' , '3_10','linkList');"
+                >
+                    Betting
+                </a>
+                    </li>
+    </ul>
+                        </div>
+
+    </section>
+                                                                        
+        
+    
+                
+                                    <section class="tm-button-list__wrapper tm-button-list__wrapper--full  tm-button-list__mobile"><span class="tm-discover__h2">Player agents</span><ul class="tm-button-list"><li><a
+                        href="/agent-support/beraterIndex/berater"
+                        title="Agent support"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/agent-support/beraterIndex/berater' , '4_1', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-support.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Agent<br>support</a></li><li><a
+                        href="/berater/beraterfirmenuebersicht/berater"
+                        title="Agent statistics"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/berater/beraterfirmenuebersicht/berater' , '4_2', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/agent-statistic.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Agent<br>statistics</a></li><li><a
+                        href="/premium-service/berater"
+                        title="Premium service"
+                        target="_self"
+                        class="tm-button-list__list-item tm-button-list__list-item--big tm-button-list__agent"
+                        onclick="tmEvent('recommendations_recommendation', '/premium-service/berater' , '4_3', 'buttonList');"
+                    ><img
+                            src="https://tmsi.akamaized.net/rebrush/navigation/premium-service.webp"
+                            alt=""
+                            class="tm-button-list__image tm-button-list__image--big tm-button-list__image--country tm-button-list__image--border"
+                            width="54"
+                            height="36"
+                        >Premium<br>service</a></li></ul></section>
+                                                                                
+                    </div>
+        
+    </div>
+                                                </div>
+                </div>
+            </nav>
+
+            <div class="quick-select-wrapper">
+    
+    <tm-quick-select defaultCountry="40" defaultCompetition="L1" defaultClub="18" defaultPlayer="" dropdown-visible="" translations='{"home":"Home","country":"Country","competition":"Competition","club":"Club","player":"Player","attack":"Striker","midfield":"Midfielder","defense":"Defender","goalkeeper":"Goalkeeper"}'>
+    </tm-quick-select>
+</div>
+
+            
+        
+        <div class="werbung ad-placement-note werbung-billboard" data-ad-placement-note="Advertisement">
+  <div id="div-gpt-ad-top_banner" style="min-width: 728px; min-height: 90px;"></div>
+</div>
+
+
+        
+        <main id="tm-main">
+            <header class="data-header">
+    <div class="data-header__headline-container">
+        <h1 class="data-header__headline-wrapper data-header__headline-wrapper--oswald">
+                        Borussia Mönchengladbach        </h1>
+    </div>
+    <div class="data-header__badge-container">
+                                    <a href="/borussia-monchengladbach/erfolge/verein/18" title="German Champion" onClick="tmEvent('vereinsprofil', 'click', 'erfolge');" class="data-header__success-data">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/erfolge/header/10.png?lm=4711" title="German Champion" alt="German Champion" class="data-header__success-image lazy lazy" />                        
+                    <span class="data-header__success-number">
+                        5                    </span>
+                </a>
+                                <a href="/borussia-monchengladbach/erfolge/verein/18" title="German Cup winner " onClick="tmEvent('vereinsprofil', 'click', 'erfolge');" class="data-header__success-data">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/erfolge/header/27.png?lm=4711" title="German Cup winner " alt="German Cup winner " class="data-header__success-image lazy lazy" />                        
+                    <span class="data-header__success-number">
+                        3                    </span>
+                </a>
+                                <a href="/borussia-monchengladbach/erfolge/verein/18" title="UEFA Cup Winner" onClick="tmEvent('vereinsprofil', 'click', 'erfolge');" class="data-header__success-data">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/erfolge/header/7.png?lm=4711" title="UEFA Cup Winner" alt="UEFA Cup Winner" class="data-header__success-image lazy lazy" />                        
+                    <span class="data-header__success-number">
+                        2                    </span>
+                </a>
+                                <a href="/borussia-monchengladbach/erfolge/verein/18" title="German 2. Bundesliga Champion" onClick="tmEvent('vereinsprofil', 'click', 'erfolge');" class="data-header__success-data">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/erfolge/header/378.png?lm=4711" title="German 2. Bundesliga Champion" alt="German 2. Bundesliga Champion" class="data-header__success-image lazy lazy" />                        
+                    <span class="data-header__success-number">
+                        1                    </span>
+                </a>
+                                <a href="/borussia-monchengladbach/erfolge/verein/18" title="Western German Cup Winner" onClick="tmEvent('vereinsprofil', 'click', 'erfolge');" class="data-header__success-data">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/erfolge/header/867.png?lm=4711" title="Western German Cup Winner" alt="Western German Cup Winner" class="data-header__success-image lazy lazy" />                        
+                    <span class="data-header__success-number">
+                        1                    </span>
+                </a>
+                                            </div>
+            <div class="data-header__box--big">
+            <a class="data-header__box__club-link" href="/bundesliga/startseite/wettbewerb/L1">
+                                    <img srcset="
+                                    https://img.a.transfermarkt.technology/logo/homepageNewsLogo80x80/l1.png?lm=4711 1x,
+                                    https://img.a.transfermarkt.technology/logo/homepageWappen150x150/l1.png?lm=4711 2x
+                                " alt="Bundesliga" height="80" width="80" />
+                                </a>
+            <div class="data-header__club-info">
+                <span class="data-header__club" itemprop="affiliation">
+                    <a href="/bundesliga/startseite/wettbewerb/L1">
+                        Bundesliga                    </a>
+                </span>
+                                        <span class="data-header__label">
+                            <strong>League level:</strong>                            <span class="data-header__content">
+                                <a href="/bundesliga/startseite/wettbewerb/L1">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/flagge/tiny/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen vm lazy lazy" />First Tier
+                                </a>
+                            </span>
+                        </span>
+                                            <span class="data-header__label">
+                            Table position:
+                            <span class="data-header__content">
+                                <a href="/bundesliga/tabelle/wettbewerb/L1" title="League table">17</a>                                </a>
+                            </span>
+                        </span>
+                        <span class="data-header__label">
+                            In league since:
+                            <span class="data-header__content">
+                                <a href="/borussia-monchengladbach/platzierungen/verein/18" title="">19 years</a>
+                            </span>
+                        </span>
+                                </div>
+        </div>
+            <div class="data-header__profile-container">
+                    <img src="https://img.a.transfermarkt.technology/wappen/head/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" />            </div>
+            <div class="data-header__box--small">
+
+                        <a href="/borussia-monchengladbach/kader/verein/18" class="data-header__market-value-wrapper"><span class="waehrung">€</span>138.55<span class="waehrung">m</span>            <p class="data-header__last-update">
+                Total market value            </p>
+            </a>
+        </div>
+            <div class="data-header__info-box ">
+        <div class="data-header__details">
+            <ul class="data-header__items">
+                <li class="data-header__label">
+                    Squad size:
+                    <span itemprop="dataItem" class="data-header__content">
+                        30                    </span>
+                </li>
+                <li class="data-header__label">
+                    Average age:
+                    <span itemprop="dataItem" class="data-header__content">
+                        26.2                    </span>
+                </li>
+                <li class="data-header__label">
+                    Foreigners:
+                    <span itemprop="dataItem" class="data-header__content">
+                        <a href="/borussia-monchengladbach/legionaere/verein/18">15</a>&nbsp;&nbsp;<span class="tabellenplatz">50.0 %</span>                    </span>
+                </li>
+            </ul>
+            <ul class="data-header__items">
+                                    <li class="data-header__label">
+                        National team players:
+                        <span itemprop="dataItem" class="data-header__content">
+                            <a href="/borussia-monchengladbach/nationalspieler/verein/18">10</a>                        </span>
+                    </li>
+                    <li class="data-header__label">
+                        Stadium:
+                        <span itemprop="dataItem" class="data-header__content">
+                            <a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/stadion/verein/18">ista-Borussia-Park</a>&nbsp;&nbsp;<span class="tabellenplatz">54.909 Seats</span>                        </span>
+                    </li>
+                    <li class="data-header__label">
+                        Current transfer record:
+                        <span itemprop="dataItem" class="data-header__content">
+                                                        <span class="greentext">
+                                <a class="greentext" href="/borussia-monchengladbach/transfers/verein/18/saison_id/2026">+€16.25m</a>                            </span>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+            <div class="data-header__toggle">
+            <div class="data-header__toggle-icon">+</div>
+            <ul class="data-header__list-clubs">
+                <li>
+                    <img src="https://img.a.transfermarkt.technology/wappen/tiny/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="tiny_wappen" /><span><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18">Borussia Mönchengladbach</a></span>                    </li><li>
+                    <img src="https://img.a.transfermarkt.technology/wappen/tiny/1006.png?lm=4711" title="Borussia Mönchengladbach II" alt="Borussia Mönchengladbach II" class="tiny_wappen" /><span><a title="Borussia Mönchengladbach II" href="/borussia-monchengladbach-ii/startseite/verein/1006">Borussia Mönchengladbach II</a></span>                    </li><li>
+                    <img src="https://img.a.transfermarkt.technology/wappen/tiny/4121.png?lm=4711" title="Borussia Mönchengladbach U19" alt="Borussia Mönchengladbach U19" class="tiny_wappen" /><span><a title="Borussia Mönchengladbach U19" href="/borussia-monchengladbach-u19/startseite/verein/4121">Borussia Mönchengladbach U19</a></span>                    </li><li>
+                    <img src="https://img.a.transfermarkt.technology/wappen/tiny/21056.png?lm=4711" title="Borussia Mönchengladbach U17" alt="Borussia Mönchengladbach U17" class="tiny_wappen" /><span><a title="Borussia Mönchengladbach U17" href="/borussia-monchengladbach-u17/startseite/verein/21056">Borussia Mönchengladbach U17</a></span>                    </li><li>
+                    <img src="https://img.a.transfermarkt.technology/wappen/tiny/50629.png?lm=4711" title="Borussia Mönchengladbach UEFA U19" alt="Borussia Mönchengladbach UEFA U19" class="tiny_wappen" /><span><a title="Borussia Mönchengladbach UEFA U19" href="/borussia-monchengladbach-uefa-u19/startseite/verein/50629">Borussia Mönchengladbach UEFA U19</a></span>                    </li><li>
+                    <img src="https://img.a.transfermarkt.technology/wappen/tiny/11845.png?lm=4711" title="Borussia Mönchengladbach Youth" alt="Borussia Mönchengladbach Youth" class="tiny_wappen" /><span><a title="Borussia Mönchengladbach Youth" href="/borussia-monchengladbach-jugend/startseite/verein/11845">Borussia Mönchengladbach Youth</a></span>                    </li>            </ul>
+        </div>
+    </header>
+<script type="text/javascript">
+   const headerLinkList = document.querySelector('.data-header__toggle');
+    if (headerLinkList) {
+        headerLinkList.addEventListener('click', () => {
+            headerLinkList.classList.toggle('data-header__toggle--active');
+        })
+    };
+</script>
+<a href="https://www.transfermarkt.us/psg-3rd-galatasaray-18th-all-36-champions-league-teams-ranked-by-squad-value/view/news/485503"
+        target="1"
+    class="db mt10"
+        onclick="tmEvent('banner', 'https://www.transfermarkt.us/psg-3rd-galatasaray-18th-all-36-champions-league-teams-ranked-by-squad-value/view/news/485503', 'd-day-banner');"
+>
+    <img
+        loading="lazy"
+        src="https://dzjovqk3zamsg.cloudfront.net/desktop-ucl-36bbanner.png"
+        width="1034"
+        height="99"
+        alt="deadline-day banner"
+    >
+</a>
+
+<script type="text/javascript">
+    (() => {
+        const cookies = document.cookie
+            .split(';')
+            .map(c => c.trim().split('='))
+            .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
+        const isContentPassUser = cookies?._cpauthhint !== undefined;
+        if (isContentPassUser) {
+            const adNodes = document.querySelectorAll('.ad-placement-note');
+            adNodes.forEach(node => node.remove());
+        }
+    })();
+</script><tm-subnavigation
+    controller="verein"
+    id="18"
+    season="2024"
+    section="verein"
+    style="display: block; margin: 0 5px;">
+</tm-subnavigation>
+<div class="row">
+    <div class="large-12 columns">
+            <script async src="/js/custom/tm-track-links.min.js" type="module"></script>
+    <div class="box">
+        <h2 class="content-box-headline">
+            Squad Borussia Mönchengladbach
+             - Season 24/25        </h2>
+        <div id="statistik-infoblock">
+                            <p class="info-content">
+                    This page displays a detailed overview of the club's current squad. It shows all personal information about the players, including age, nationality, contract duration and market value. It also contains a table with average age, cumulative market value and average market value for each player position and overall.                </p>
+                            <div class="content">
+                <form action="/borussia-monchengladbach/kader/verein/18/plus/1/galerie/0" method="get">                    <div class="row">
+                        <div class="large-12 columns">
+                            <table class="auflistung">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        Filter by season                                    </td>
+                                    <td>
+                                        <div class="inline-select">
+                                            <select name="saison_id"
+                                                    data-placeholder="Filter by season"
+                                                    class="chzn-select" tabindex="0">
+                                                                                                    <option
+                                                        value="2026">26/27                                                    </option>
+                                                                                                    <option
+                                                        value="2025">25/26                                                    </option>
+                                                                                                    <option
+                                                         selected="selected"value="2024">24/25                                                    </option>
+                                                                                                    <option
+                                                        value="2023">23/24                                                    </option>
+                                                                                                    <option
+                                                        value="2022">22/23                                                    </option>
+                                                                                                    <option
+                                                        value="2021">21/22                                                    </option>
+                                                                                                    <option
+                                                        value="2020">20/21                                                    </option>
+                                                                                                    <option
+                                                        value="2019">19/20                                                    </option>
+                                                                                                    <option
+                                                        value="2018">18/19                                                    </option>
+                                                                                                    <option
+                                                        value="2017">17/18                                                    </option>
+                                                                                                    <option
+                                                        value="2016">16/17                                                    </option>
+                                                                                                    <option
+                                                        value="2015">15/16                                                    </option>
+                                                                                                    <option
+                                                        value="2014">14/15                                                    </option>
+                                                                                                    <option
+                                                        value="2013">13/14                                                    </option>
+                                                                                                    <option
+                                                        value="2012">12/13                                                    </option>
+                                                                                                    <option
+                                                        value="2011">11/12                                                    </option>
+                                                                                                    <option
+                                                        value="2010">10/11                                                    </option>
+                                                                                                    <option
+                                                        value="2009">09/10                                                    </option>
+                                                                                                    <option
+                                                        value="2008">08/09                                                    </option>
+                                                                                                    <option
+                                                        value="2007">07/08                                                    </option>
+                                                                                                    <option
+                                                        value="2006">06/07                                                    </option>
+                                                                                                    <option
+                                                        value="2005">05/06                                                    </option>
+                                                                                                    <option
+                                                        value="2004">04/05                                                    </option>
+                                                                                                    <option
+                                                        value="2003">03/04                                                    </option>
+                                                                                                    <option
+                                                        value="2002">02/03                                                    </option>
+                                                                                                    <option
+                                                        value="2001">01/02                                                    </option>
+                                                                                                    <option
+                                                        value="2000">00/01                                                    </option>
+                                                                                                    <option
+                                                        value="1999">99/00                                                    </option>
+                                                                                                    <option
+                                                        value="1998">98/99                                                    </option>
+                                                                                                    <option
+                                                        value="1997">97/98                                                    </option>
+                                                                                                    <option
+                                                        value="1996">96/97                                                    </option>
+                                                                                                    <option
+                                                        value="1995">95/96                                                    </option>
+                                                                                                    <option
+                                                        value="1994">94/95                                                    </option>
+                                                                                                    <option
+                                                        value="1993">93/94                                                    </option>
+                                                                                                    <option
+                                                        value="1992">92/93                                                    </option>
+                                                                                                    <option
+                                                        value="1991">91/92                                                    </option>
+                                                                                                    <option
+                                                        value="1990">90/91                                                    </option>
+                                                                                                    <option
+                                                        value="1989">89/90                                                    </option>
+                                                                                                    <option
+                                                        value="1988">88/89                                                    </option>
+                                                                                                    <option
+                                                        value="1987">87/88                                                    </option>
+                                                                                                    <option
+                                                        value="1986">86/87                                                    </option>
+                                                                                                    <option
+                                                        value="1985">85/86                                                    </option>
+                                                                                                    <option
+                                                        value="1984">84/85                                                    </option>
+                                                                                                    <option
+                                                        value="1983">83/84                                                    </option>
+                                                                                                    <option
+                                                        value="1982">82/83                                                    </option>
+                                                                                                    <option
+                                                        value="1981">81/82                                                    </option>
+                                                                                                    <option
+                                                        value="1980">80/81                                                    </option>
+                                                                                                    <option
+                                                        value="1979">79/80                                                    </option>
+                                                                                                    <option
+                                                        value="1978">78/79                                                    </option>
+                                                                                                    <option
+                                                        value="1977">77/78                                                    </option>
+                                                                                                    <option
+                                                        value="1976">76/77                                                    </option>
+                                                                                                    <option
+                                                        value="1975">75/76                                                    </option>
+                                                                                                    <option
+                                                        value="1974">74/75                                                    </option>
+                                                                                                    <option
+                                                        value="1973">73/74                                                    </option>
+                                                                                                    <option
+                                                        value="1972">72/73                                                    </option>
+                                                                                                    <option
+                                                        value="1971">71/72                                                    </option>
+                                                                                                    <option
+                                                        value="1970">70/71                                                    </option>
+                                                                                                    <option
+                                                        value="1969">69/70                                                    </option>
+                                                                                                    <option
+                                                        value="1968">68/69                                                    </option>
+                                                                                                    <option
+                                                        value="1967">67/68                                                    </option>
+                                                                                                    <option
+                                                        value="1966">66/67                                                    </option>
+                                                                                                    <option
+                                                        value="1965">65/66                                                    </option>
+                                                                                                    <option
+                                                        value="1964">64/65                                                    </option>
+                                                                                                    <option
+                                                        value="1963">63/64                                                    </option>
+                                                                                                    <option
+                                                        value="1962">62/63                                                    </option>
+                                                                                                    <option
+                                                        value="1961">61/62                                                    </option>
+                                                                                                    <option
+                                                        value="1960">60/61                                                    </option>
+                                                                                                    <option
+                                                        value="1959">59/60                                                    </option>
+                                                                                                    <option
+                                                        value="1958">58/59                                                    </option>
+                                                                                                    <option
+                                                        value="1957">57/58                                                    </option>
+                                                                                                    <option
+                                                        value="1956">56/57                                                    </option>
+                                                                                                    <option
+                                                        value="1955">55/56                                                    </option>
+                                                                                                    <option
+                                                        value="1954">54/55                                                    </option>
+                                                                                                    <option
+                                                        value="1953">53/54                                                    </option>
+                                                                                                    <option
+                                                        value="1952">52/53                                                    </option>
+                                                                                                    <option
+                                                        value="1951">51/52                                                    </option>
+                                                                                                    <option
+                                                        value="1950">50/51                                                    </option>
+                                                                                                    <option
+                                                        value="1919">1919/20                                                    </option>
+                                                                                            </select>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="submit" class="small button"
+                                               value="Show">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    </form>
+                                </div>
+        </div>
+        
+<div class="tm-tabs">
+    <a class="tm-tab" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024"><div class=""><span>Compact</span></div></a><a class="tm-tab tm-tab__active--parent" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1"><div class=" tm-tab__active"><span>Detailed</span></div></a><a class="tm-tab" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/galerie/1"><div class=""><span>Gallery</span></div></a></div>
+        <div class="responsive-table">
+            <div id="yw1" class="grid-view">
+<div class="summary"></div>
+<table class="items">
+<thead>
+<tr>
+<th class="zentriert" id="yw1_c0"><a class="sort-link asc" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/trikotNumber.desc">#</a></th><th id="yw1_c1"><a class="sort-link" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/name">Player</a></th><th class="zentriert" id="yw1_c2"><a class="sort-link" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/dateOfBirthTimestamp">Date of birth/Age</a></th><th class="zentriert" id="yw1_c3">Nat.</th><th class="zentriert" id="yw1_c4">Current club</th><th class="zentriert" id="yw1_c5"><a class="sort-link" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/size.desc">Height</a></th><th class="zentriert" id="yw1_c6"><a class="sort-link" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/foot.desc">Foot</a></th><th class="zentriert" id="yw1_c7"><a class="sort-link" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/teamMemberSinceTimestamp">Joined</a></th><th class="zentriert" id="yw1_c8">Signed from</th><th class="rechts" id="yw1_c9"><a class="sort-link desc" href="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1/sort/marketValueRaw">Market value</a></th></tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Torwart" title="Goalkeeper"><div class=rn_nummer>33</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/284270-1722945496.jpg?lm=4711" title="Moritz Nicolas" alt="Moritz Nicolas" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/moritz-nicolas/profil/spieler/284270">
+                Moritz Nicolas            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Goalkeeper        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Oct 21, 1997 (27)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 4 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2016</td><td class="zentriert"><a title="Borussia Mönchengladbach II: Ablöse -" href="/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2016"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1006.png?lm=4711" title="Borussia Mönchengladbach II" alt="Borussia Mönchengladbach II" class="" /></a></td><td class="rechts hauptlink"><a href="/moritz-nicolas/marktwertverlauf/spieler/284270">€5.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Torwart" title="Goalkeeper"><div class=rn_nummer>1</div></td><td class="posrela"><span class="wechsel-kader-wappen hide-for-small"><a title="Returned after loan spell with Bayer 04 Leverkusen; date: Jun 30, 2026; fee: End of loan" href="/bayer-04-leverkusen/startseite/verein/15/saison_id/2025"><img src="https://img.a.transfermarkt.technology/wappen/kaderquad/15.png?lm=1788504510" title="Bayer 04 Leverkusen" alt="Bayer 04 Leverkusen" class="" /></a></span><a title="Returned after loan spell with Bayer 04 Leverkusen; date: Jun 30, 2026; fee: End of loan" class="hide-for-small" href="/bayer-04-leverkusen/startseite/verein/15/saison_id/2025"><img src="/images/icons/rueckkehr_beta_kader.png" class="wechsel-symbol" width="19px" height="19px" /></a>
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/247915-1691248651.jpg?lm=4711" title="Jonas Omlin" alt="Jonas Omlin" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/jonas-omlin/profil/spieler/247915">
+                Jonas Omlin<span title="Hamstring injury - Return unknown" class="verletzt-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Goalkeeper        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Jan 10, 1994 (31)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/148.png?lm=4711" title="Switzerland" alt="Switzerland" class="flaggenrahmen" /></td><td class="zentriert"><a title="FC Basel 1893" href="/fc-basel-1893/startseite/verein/26"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/26.png?lm=4711" title="FC Basel 1893" alt="FC Basel 1893" class="" /></a></td><td class="zentriert">6 ft 3 in</td><td class="zentriert">right</td><td class="zentriert">Jan 19, 2023</td><td class="zentriert"><a title="Montpellier HSC: Ablöse €9.00m" href="/montpellier-hsc/startseite/verein/969/saison_id/2022"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/969_1720105245.png?lm=4711" title=": Ablöse €9.00m" alt="Montpellier HSC" class="" /></a></td><td class="rechts hauptlink"><a href="/jonas-omlin/marktwertverlauf/spieler/247915">€2.50m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Torwart" title="Goalkeeper"><div class=rn_nummer>42</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/926301-1760967429.jpg?lm=4711" title="Tiago Pereira Cardoso" alt="Tiago Pereira Cardoso" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/tiago-pereira-cardoso/profil/spieler/926301">
+                Tiago Pereira Cardoso            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Goalkeeper        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Apr 7, 2006 (19)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/99.png?lm=4711" title="Luxembourg" alt="Luxembourg" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/136.png?lm=4711" title="Portugal" alt="Portugal" class="flaggenrahmen" /></td><td class="zentriert"><a title="RAAL La Louvière" href="/raal-la-louviere/startseite/verein/3901"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/3901.png?lm=4711" title="RAAL La Louvière" alt="RAAL La Louvière" class="" /></a></td><td class="zentriert">6 ft 3 in</td><td class="zentriert">right</td><td class="zentriert">Mar 1, 2025</td><td class="zentriert"><a title="Borussia Mönchengladbach U19: Ablöse -" href="/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2024"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/4121.png?lm=4711" title="Borussia Mönchengladbach U19" alt="Borussia Mönchengladbach U19" class="" /></a></td><td class="rechts hauptlink"><a href="/tiago-pereira-cardoso/marktwertverlauf/spieler/926301">€1.50m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Torwart" title="Goalkeeper"><div class=rn_nummer>21</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/31653-1662965792.jpg?lm=4711" title="Tobias Sippel" alt="Tobias Sippel" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/tobias-sippel/profil/spieler/31653">
+                Tobias Sippel            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Goalkeeper        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Mar 22, 1988 (37)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 0 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2015</td><td class="zentriert"><a title="1.FC Kaiserslautern: Ablöse free transfer" href="/1-fc-kaiserslautern/startseite/verein/2/saison_id/2015"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/2.png?lm=4711" title="1.FC Kaiserslautern" alt="1.FC Kaiserslautern" class="" /></a></td><td class="rechts hauptlink"><a href="/tobias-sippel/marktwertverlauf/spieler/31653">€300k</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>3</div></td><td class="posrela"><span class="wechsel-kader-wappen hide-for-small"><a title="Joined from Ajax Amsterdam; date: Aug 20, 2026; fee: €3.50m" href="/ajax-amsterdam/startseite/verein/610/saison_id/2026"><img src="https://img.a.transfermarkt.technology/wappen/kaderquad/610.png?lm=4711" title="Ajax Amsterdam" alt="Ajax Amsterdam" class="" /></a></span><a title="Joined from Ajax Amsterdam; date: Aug 20, 2026; fee: €3.50m" class="hide-for-small" href="/ajax-amsterdam/startseite/verein/610/saison_id/2026"><img src="/images/icons/zugang_beta_kader.png" class="wechsel-symbol" width="19px" height="19px" /></a>
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/355816-1662966245.jpg?lm=4711" title="Ko Itakura" alt="Ko Itakura" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/ko-itakura/profil/spieler/355816">
+                Ko Itakura            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Jan 27, 1997 (28)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/77.png?lm=4711" title="Japan" alt="Japan" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 2 in</td><td class="zentriert">right</td><td class="zentriert">Aug 20, 2026</td><td class="zentriert"><a title="Ajax Amsterdam: Ablöse €3.50m" href="/ajax-amsterdam/startseite/verein/610/saison_id/2026"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/610.png?lm=4711" title="Ajax Amsterdam" alt="Ajax Amsterdam" class="" /></a></td><td class="rechts hauptlink"><a href="/ko-itakura/marktwertverlauf/spieler/355816">€12.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>30</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/192635-1691249306.jpg?lm=4711" title="Nico Elvedi" alt="Nico Elvedi" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/nico-elvedi/profil/spieler/192635">
+                Nico Elvedi            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Sep 30, 1996 (28)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/148.png?lm=4711" title="Switzerland" alt="Switzerland" class="flaggenrahmen" /></td><td class="zentriert"><a title="Leeds United" href="/leeds-united/startseite/verein/399"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/399.png?lm=4711" title="Leeds United" alt="Leeds United" class="" /></a></td><td class="zentriert">6 ft 2 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2015</td><td class="zentriert"><a title="FC Zürich: Ablöse €4.00m" href="/fc-zurich/startseite/verein/260/saison_id/2015"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/260_1656419573.png?lm=4711" title=": Ablöse €4.00m" alt="FC Zürich" class="" /></a></td><td class="rechts hauptlink"><a href="/nico-elvedi/marktwertverlauf/spieler/192635">€8.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>5</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/196231-1662966392.jpg?lm=4711" title="Marvin Friedrich" alt="Marvin Friedrich" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/marvin-friedrich/profil/spieler/196231">
+                Marvin Friedrich<span title="Knock - Return unknown" class="verletzt-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Dec 13, 1995 (29)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="1.FC Union Berlin" href="/1-fc-union-berlin/startseite/verein/89"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/89.png?lm=4711" title="1.FC Union Berlin" alt="1.FC Union Berlin" class="" /></a></td><td class="zentriert">6 ft 4 in</td><td class="zentriert">right</td><td class="zentriert">Jan 11, 2022</td><td class="zentriert"><a title="1.FC Union Berlin: Ablöse €5.50m" href="/1-fc-union-berlin/startseite/verein/89/saison_id/2021"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/89.png?lm=4711" title="1.FC Union Berlin" alt="1.FC Union Berlin" class="" /></a></td><td class="rechts hauptlink"><a href="/marvin-friedrich/marktwertverlauf/spieler/196231">€3.50m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>2</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/724104-1722945535.jpg?lm=4711" title="Fabio Chiarodia" alt="Fabio Chiarodia" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/fabio-chiarodia/profil/spieler/724104">
+                Fabio Chiarodia            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Jun 5, 2005 (20)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/75.png?lm=4711" title="Italy" alt="Italy" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">left</td><td class="zentriert">Jul 1, 2023</td><td class="zentriert"><a title="SV Werder Bremen: Ablöse €2.00m" href="/sv-werder-bremen/startseite/verein/86/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/86_1677770404.png?lm=4711" title=": Ablöse €2.00m" alt="SV Werder Bremen" class="" /></a></td><td class="rechts hauptlink"><a href="/fabio-chiarodia/marktwertverlauf/spieler/724104">€2.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>26</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/787151-1691248738.jpg?lm=4711" title="Lukas Ullrich" alt="Lukas Ullrich" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/lukas-ullrich/profil/spieler/787151">
+                Lukas Ullrich            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Left-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Mar 16, 2004 (21)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">5 ft 11 in</td><td class="zentriert">left</td><td class="zentriert">Jul 1, 2023</td><td class="zentriert"><a title="Hertha BSC II: Ablöse free transfer" href="/hertha-bsc-ii/startseite/verein/45/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/45.png?lm=4711" title="Hertha BSC II" alt="Hertha BSC II" class="" /></a></td><td class="rechts hauptlink"><a href="/lukas-ullrich/marktwertverlauf/spieler/787151">€8.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>20</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/524285-1760967382.jpg?lm=4711" title="Luca Netz" alt="Luca Netz" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/luca-netz/profil/spieler/524285">
+                Luca Netz            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Left-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">May 15, 2003 (22)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Nottingham Forest" href="/nottingham-forest/startseite/verein/703"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/703.png?lm=4711" title="Nottingham Forest" alt="Nottingham Forest" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">left</td><td class="zentriert">Aug 6, 2021</td><td class="zentriert"><a title="Hertha BSC: Ablöse €2.00m" href="/hertha-bsc/startseite/verein/44/saison_id/2021"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/44.png?lm=4711" title="Hertha BSC" alt="Hertha BSC" class="" /></a></td><td class="rechts hauptlink"><a href="/luca-netz/marktwertverlauf/spieler/524285">€6.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>29</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/504153-1786966331.jpg?lm=4711" title="Joe Scally" alt="Joe Scally" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/joe-scally/profil/spieler/504153">
+                Joe Scally            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Right-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Dec 31, 2002 (22)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/184.png?lm=4711" title="United States" alt="United States" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 0 in</td><td class="zentriert">right</td><td class="zentriert">Jan 1, 2021</td><td class="zentriert"><a title="New York City FC: Ablöse €1.80m" href="/new-york-city-fc/startseite/verein/40058/saison_id/2020"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/40058_1726076912.png?lm=4711" title=": Ablöse €1.80m" alt="New York City FC" class="" /></a></td><td class="rechts hauptlink"><a href="/joe-scally/marktwertverlauf/spieler/504153">€10.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Abwehr" title="Defender"><div class=rn_nummer>-</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/85791-1787150331.png?lm=4711" title="Stefan Lainer" alt="Stefan Lainer" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/stefan-lainer/profil/spieler/85791">
+                Stefan Lainer            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Right-Back        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Aug 27, 1992 (32)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/127.png?lm=4711" title="Austria" alt="Austria" class="flaggenrahmen" /></td><td class="zentriert"><a title="Red Bull Salzburg" href="/red-bull-salzburg/startseite/verein/409"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/409.png?lm=4711" title="Red Bull Salzburg" alt="Red Bull Salzburg" class="" /></a></td><td class="zentriert">5 ft 9 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2019</td><td class="zentriert"><a title="Red Bull Salzburg: Ablöse €12.50m" href="/red-bull-salzburg/startseite/verein/409/saison_id/2019"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/409_1780501248.png?lm=4711" title=": Ablöse €12.50m" alt="Red Bull Salzburg" class="" /></a></td><td class="rechts hauptlink"><a href="/stefan-lainer/marktwertverlauf/spieler/85791">€1.20m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>8</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/196792-1662965628.jpg?lm=4711" title="Julian Weigl" alt="Julian Weigl" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/julian-weigl/profil/spieler/196792">
+                Julian Weigl            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Defensive Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Sep 8, 1995 (29)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Al-Qadsiah FC" href="/al-qadisiyah-fc/startseite/verein/26069"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/26069.png?lm=4711" title="Al-Qadsiah FC" alt="Al-Qadsiah FC" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2023</td><td class="zentriert"><a title="SL Benfica: Ablöse €7.18m" href="/benfica-lissabon/startseite/verein/294/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/294.png?lm=4711" title="SL Benfica" alt="SL Benfica" class="" /></a></td><td class="rechts hauptlink"><a href="/julian-weigl/marktwertverlauf/spieler/196792">€6.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>16</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/388409-1760966764.jpg?lm=4711" title="Philipp Sander" alt="Philipp Sander" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/philipp-sander/profil/spieler/388409">
+                Philipp Sander            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Defensive Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Feb 21, 1998 (27)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">both</td><td class="zentriert">Jul 1, 2024</td><td class="zentriert"><a title="Holstein Kiel: Ablöse €1.00m" href="/holstein-kiel/startseite/verein/269/saison_id/2024"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/269.png?lm=4711" title="Holstein Kiel" alt="Holstein Kiel" class="" /></a></td><td class="rechts hauptlink"><a href="/philipp-sander/marktwertverlauf/spieler/388409">€4.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>39</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/1009463-1785443527.jpg?lm=4711" title="Niklas Swider" alt="Niklas Swider" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/niklas-swider/profil/spieler/1009463">
+                Niklas Swider            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Defensive Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Jan 5, 2007 (18)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="FC Viktoria Köln" href="/fc-viktoria-koln/startseite/verein/1622"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1622.png?lm=4711" title="FC Viktoria Köln" alt="FC Viktoria Köln" class="" /></a></td><td class="zentriert">6 ft 2 in</td><td class="zentriert">right</td><td class="zentriert">Dec 17, 2024</td><td class="zentriert"><a title="Borussia Mönchengladbach U19: Ablöse -" href="/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2024"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/4121.png?lm=4711" title="Borussia Mönchengladbach U19" alt="Borussia Mönchengladbach U19" class="" /></a></td><td class="rechts hauptlink"><a href="/niklas-swider/marktwertverlauf/spieler/1009463">€250k</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>-</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/787152-1787128119.jpg?lm=4711" title="Veit Stange" alt="Veit Stange" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/veit-stange/profil/spieler/787152">
+                Veit Stange            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Defensive Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Feb 8, 2004 (21)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="VfB Stuttgart II" href="/vfb-stuttgart-ii/startseite/verein/102"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/102.png?lm=4711" title="VfB Stuttgart II" alt="VfB Stuttgart II" class="" /></a></td><td class="zentriert">6 ft 2 in</td><td class="zentriert">right</td><td class="zentriert"></td><td class="zentriert">&nbsp;</td><td class="rechts hauptlink"><a href="/veit-stange/marktwertverlauf/spieler/787152">€150k</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>-</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/624690-1757931309.jpg?lm=4711" title="Manu Koné" alt="Manu Koné" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/manu-kone/profil/spieler/624690">
+                Manu Koné            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Central Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">May 17, 2001 (24)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/50.png?lm=4711" title="France" alt="France" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/38.png?lm=4711" title="Cote d'Ivoire" alt="Cote d'Ivoire" class="flaggenrahmen" /></td><td class="zentriert"><a title="AS Roma" href="/as-rom/startseite/verein/12"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/12.png?lm=4711" title="AS Roma" alt="AS Roma" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">right</td><td class="zentriert">Jan 21, 2021</td><td class="zentriert"><a title="FC Toulouse: Ablöse €9.00m" href="/fc-toulouse/startseite/verein/415/saison_id/2020"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/415_1740065156.png?lm=4711" title=": Ablöse €9.00m" alt="FC Toulouse" class="" /></a></td><td class="rechts hauptlink"><a href="/manu-kone/marktwertverlauf/spieler/624690">€40.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>27</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/467434-1760966939.jpg?lm=4711" title="Rocco Reitz" alt="Rocco Reitz" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/rocco-reitz/profil/spieler/467434">
+                Rocco Reitz<span title="Hamstring injury - Return unknown" class="verletzt-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Central Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">May 29, 2002 (23)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="RB Leipzig" href="/rasenballsport-leipzig/startseite/verein/23826"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/23826.png?lm=4711" title="RB Leipzig" alt="RB Leipzig" class="" /></a></td><td class="zentriert">5 ft 9 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2020</td><td class="zentriert"><a title="Borussia Mönchengladbach U19: Ablöse -" href="/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2020"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/4121.png?lm=4711" title="Borussia Mönchengladbach U19" alt="Borussia Mönchengladbach U19" class="" /></a></td><td class="rechts hauptlink"><a href="/rocco-reitz/marktwertverlauf/spieler/467434">€15.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>10</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/278332-1739091435.jpg?lm=4711" title="Florian Neuhaus" alt="Florian Neuhaus" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/florian-neuhaus/profil/spieler/278332">
+                Florian Neuhaus            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Central Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Mar 16, 1997 (28)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2017</td><td class="zentriert"><a title="TSV 1860 Munich: Ablöse free transfer" href="/tsv-1860-munchen/startseite/verein/72/saison_id/2017"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/72_1784447658.png?lm=1788262991" title=": Ablöse free transfer" alt="TSV 1860 Munich" class="" /></a></td><td class="rechts hauptlink"><a href="/florian-neuhaus/marktwertverlauf/spieler/278332">€3.50m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>7</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/106872-1722945684.jpg?lm=4711" title="Kevin Stöger" alt="Kevin Stöger" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/kevin-stoger/profil/spieler/106872">
+                Kevin Stöger            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Attacking Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Aug 27, 1993 (31)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/127.png?lm=4711" title="Austria" alt="Austria" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">5 ft 9 in</td><td class="zentriert">left</td><td class="zentriert">Jul 1, 2024</td><td class="zentriert"><a title="VfL Bochum: Ablöse free transfer" href="/vfl-bochum/startseite/verein/80/saison_id/2024"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/80.png?lm=4711" title="VfL Bochum" alt="VfL Bochum" class="" /></a></td><td class="rechts hauptlink"><a href="/kevin-stoger/marktwertverlauf/spieler/106872">€3.50m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Mittelfeld" title="Midfield"><div class=rn_nummer>-</div></td><td class="posrela"><span class="wechsel-kader-wappen hide-for-small"><a title="Returned after loan spell with 1.FC Magdeburg; date: Jun 30, 2026; fee: End of loan" href="/1-fc-magdeburg/startseite/verein/187/saison_id/2025"><img src="https://img.a.transfermarkt.technology/wappen/kaderquad/187.png?lm=4711" title="1.FC Magdeburg" alt="1.FC Magdeburg" class="" /></a></span><a title="Returned after loan spell with 1.FC Magdeburg; date: Jun 30, 2026; fee: End of loan" class="hide-for-small" href="/1-fc-magdeburg/startseite/verein/187/saison_id/2025"><img src="/images/icons/rueckkehr_beta_kader.png" class="wechsel-symbol" width="19px" height="19px" /></a>
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/696028-1788368286.jpg?lm=4711" title="Noah Pesch" alt="Noah Pesch" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/noah-pesch/profil/spieler/696028">
+                Noah Pesch            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Attacking Midfield        </td>
+    </tr>
+</table>
+</td><td class="zentriert">May 18, 2005 (20)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/37.png?lm=4711" title="Croatia" alt="Croatia" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Rot-Weiss Essen" href="/rot-weiss-essen/startseite/verein/56"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/56.png?lm=4711" title="Rot-Weiss Essen" alt="Rot-Weiss Essen" class="" /></a></td><td class="zentriert">6 ft 0 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2025</td><td class="zentriert"><a title="Borussia Mönchengladbach II: Ablöse -" href="/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2025"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1006.png?lm=4711" title="Borussia Mönchengladbach II" alt="Borussia Mönchengladbach II" class="" /></a></td><td class="rechts hauptlink"><a href="/noah-pesch/marktwertverlauf/spieler/696028">€300k</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>25</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/284010-1722945425.jpg?lm=4711" title="Robin Hack" alt="Robin Hack" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/robin-hack/profil/spieler/284010">
+                Robin Hack            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Left Winger        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Aug 27, 1998 (26)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">5 ft 10 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2023</td><td class="zentriert"><a title="Arminia Bielefeld: Ablöse €1.10m" href="/arminia-bielefeld/startseite/verein/10/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/10.png?lm=4711" title="Arminia Bielefeld" alt="Arminia Bielefeld" class="" /></a></td><td class="rechts hauptlink"><a href="/robin-hack/marktwertverlauf/spieler/284010">€12.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>38</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/586659-1764163292.png?lm=4711" title="Yvandro Borges Sanches" alt="Yvandro Borges Sanches" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/yvandro-borges-sanches/profil/spieler/586659">
+                Yvandro Borges Sanches<span title="Cruciate ligament tear - Return unknown" class="verletzt-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Left Winger        </td>
+    </tr>
+</table>
+</td><td class="zentriert">May 24, 2004 (21)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/99.png?lm=4711" title="Luxembourg" alt="Luxembourg" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/32.png?lm=4711" title="Cape Verde" alt="Cape Verde" class="flaggenrahmen" /></td><td class="zentriert"><a title="Heracles Almelo" href="/heracles-almelo/startseite/verein/1304"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1304.png?lm=4711" title="Heracles Almelo" alt="Heracles Almelo" class="" /></a></td><td class="zentriert">5 ft 11 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2022</td><td class="zentriert"><a title="Borussia Mönchengladbach U19: Ablöse -" href="/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2022"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/4121.png?lm=4711" title="Borussia Mönchengladbach U19" alt="Borussia Mönchengladbach U19" class="" /></a></td><td class="rechts hauptlink"><a href="/yvandro-borges-sanches/marktwertverlauf/spieler/586659">€500k</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>9</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/229006-1691248904.jpg?lm=4711" title="Franck Honorat" alt="Franck Honorat" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/franck-honorat/profil/spieler/229006">
+                Franck Honorat            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Right Winger        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Aug 11, 1996 (28)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/50.png?lm=4711" title="France" alt="France" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">5 ft 11 in</td><td class="zentriert">right</td><td class="zentriert">Jul 11, 2023</td><td class="zentriert"><a title="Stade Brestois 29: Ablöse €8.00m" href="/stade-brest-29/startseite/verein/3911/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/3911_1768834526.png?lm=4711" title=": Ablöse €8.00m" alt="Stade Brestois 29" class="" /></a></td><td class="rechts hauptlink"><a href="/franck-honorat/marktwertverlauf/spieler/229006">€12.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>19</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/629588-1760967137.jpg?lm=4711" title="Nathan Ngoumou" alt="Nathan Ngoumou" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/nathan-ngoumou/profil/spieler/629588">
+                Nathan Ngoumou            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Right Winger        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Mar 14, 2000 (25)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/31.png?lm=4711" title="Cameroon" alt="Cameroon" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/50.png?lm=4711" title="France" alt="France" class="flaggenrahmen" /></td><td class="zentriert"><a title="OGC Nice" href="/ogc-nizza/startseite/verein/417"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/417.png?lm=4711" title="OGC Nice" alt="OGC Nice" class="" /></a></td><td class="zentriert">6 ft 1 in</td><td class="zentriert">right</td><td class="zentriert">Aug 30, 2022</td><td class="zentriert"><a title="FC Toulouse: Ablöse €8.00m" href="/fc-toulouse/startseite/verein/415/saison_id/2022"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/415.png?lm=4711" title="FC Toulouse" alt="FC Toulouse" class="" /></a></td><td class="rechts hauptlink"><a href="/nathan-ngoumou/marktwertverlauf/spieler/629588">€4.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>34</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/884822-1760967283.jpg?lm=4711" title="Charles Herrmann" alt="Charles Herrmann" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/charles-herrmann/profil/spieler/884822">
+                Charles Herrmann<span title="Muscle injury - Return unknown" class="verletzt-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Right Winger        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Jan 21, 2006 (19)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/54.png?lm=4711" title="Ghana" alt="Ghana" class="flaggenrahmen" /></td><td class="zentriert"><a title="Cercle Brugge " href="/cercle-brugge/startseite/verein/520"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/520.png?lm=4711" title="Cercle Brugge " alt="Cercle Brugge " class="" /></a></td><td class="zentriert">5 ft 11 in</td><td class="zentriert">left</td><td class="zentriert">Jul 1, 2024</td><td class="zentriert"><a title="Borussia Dortmund U19: Ablöse free transfer" href="/borussia-dortmund-u19/startseite/verein/1464/saison_id/2024"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1464.png?lm=4711" title="Borussia Dortmund U19" alt="Borussia Dortmund U19" class="" /></a></td><td class="rechts hauptlink"><a href="/charles-herrmann/marktwertverlauf/spieler/884822">€300k</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>11</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/193033-1722945738.jpg?lm=4711" title="Tim Kleindienst" alt="Tim Kleindienst" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/tim-kleindienst/profil/spieler/193033">
+                Tim Kleindienst<span title="Team captain" class="kapitaenicon-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Forward        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Aug 31, 1995 (29)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="Borussia Mönchengladbach" href="/borussia-monchengladbach/startseite/verein/18"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/18.png?lm=4711" title="Borussia Mönchengladbach" alt="Borussia Mönchengladbach" class="" /></a></td><td class="zentriert">6 ft 4 in</td><td class="zentriert">both</td><td class="zentriert">Jul 1, 2024</td><td class="zentriert"><a title="1.FC Heidenheim 1846: Ablöse €7.00m" href="/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2024"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/2036.png?lm=4711" title="1.FC Heidenheim 1846" alt="1.FC Heidenheim 1846" class="" /></a></td><td class="rechts hauptlink"><a href="/tim-kleindienst/marktwertverlauf/spieler/193033">€17.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>14</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/167329-1627997314.jpg?lm=4711" title="Alassane Pléa" alt="Alassane Pléa" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/alassane-plea/profil/spieler/167329">
+                Alassane Pléa<span title="unknown injury - Return unknown" class="verletzt-table icons_sprite">&nbsp;</span>            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Forward        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Mar 10, 1993 (32)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/50.png?lm=4711" title="France" alt="France" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/105.png?lm=4711" title="Mali" alt="Mali" class="flaggenrahmen" /></td><td class="zentriert"><a title="PSV Eindhoven" href="/psv-eindhoven/startseite/verein/383"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/383.png?lm=4711" title="PSV Eindhoven" alt="PSV Eindhoven" class="" /></a></td><td class="zentriert">5 ft 11 in</td><td class="zentriert">right</td><td class="zentriert">Jul 13, 2018</td><td class="zentriert"><a title="OGC Nice: Ablöse €23.00m" href="/ogc-nizza/startseite/verein/417/saison_id/2018"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/417.png?lm=4711" title="OGC Nice" alt="OGC Nice" class="" /></a></td><td class="rechts hauptlink"><a href="/alassane-plea/marktwertverlauf/spieler/167329">€5.00m</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>31</div></td><td class="posrela">
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/544148-1691249040.jpg?lm=4711" title="Tomas Cvancara" alt="Tomas Cvancara" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/tomas-cvancara/profil/spieler/544148">
+                Tomas Cvancara            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Forward        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Aug 13, 2000 (24)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/172.png?lm=4711" title="Czech Republic" alt="Czech Republic" class="flaggenrahmen" /></td><td class="zentriert"><a title="FC Hradec Kralove" href="/fc-hradec-kralove/startseite/verein/1897"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1897.png?lm=4711" title="FC Hradec Kralove" alt="FC Hradec Kralove" class="" /></a></td><td class="zentriert">6 ft 3 in</td><td class="zentriert">right</td><td class="zentriert">Jul 14, 2023</td><td class="zentriert"><a title="AC Sparta Prague: Ablöse €10.50m" href="/ac-sparta-prag/startseite/verein/197/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/197.png?lm=4711" title="AC Sparta Prague" alt="AC Sparta Prague" class="" /></a></td><td class="rechts hauptlink"><a href="/tomas-cvancara/marktwertverlauf/spieler/544148">€3.00m</a></td></tr>
+<tr class="even">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>-</div></td><td class="posrela"><span class="wechsel-kader-wappen hide-for-small"><a title="Returned after loan spell with Eintracht Braunschweig; date: Jun 30, 2026; fee: End of loan" href="/eintracht-braunschweig/startseite/verein/23/saison_id/2025"><img src="https://img.a.transfermarkt.technology/wappen/kaderquad/23.png?lm=4711" title="Eintracht Braunschweig" alt="Eintracht Braunschweig" class="" /></a></span><a title="Returned after loan spell with Eintracht Braunschweig; date: Jun 30, 2026; fee: End of loan" class="hide-for-small" href="/eintracht-braunschweig/startseite/verein/23/saison_id/2025"><img src="/images/icons/rueckkehr_beta_kader.png" class="wechsel-symbol" width="19px" height="19px" /></a>
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/574201-1691249188.jpg?lm=4711" title="Grant-Leon Ranos" alt="Grant-Leon Ranos" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/grant-leon-ranos/profil/spieler/574201">
+                Grant-Leon Ranos            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Forward        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Jul 20, 2003 (21)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/10.png?lm=4711" title="Armenia" alt="Armenia" class="flaggenrahmen" /><br /><img src="https://img.a.transfermarkt.technology/flagge/verysmall/40.png?lm=4711" title="Germany" alt="Germany" class="flaggenrahmen" /></td><td class="zentriert"><a title="CD Tenerife" href="/cd-teneriffa/startseite/verein/648"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/648.png?lm=4711" title="CD Tenerife" alt="CD Tenerife" class="" /></a></td><td class="zentriert">5 ft 11 in</td><td class="zentriert">right</td><td class="zentriert">Jul 1, 2023</td><td class="zentriert"><a title="FC Bayern Munich II: Ablöse free transfer" href="/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/27_1729503630.png?lm=4711" title=": Ablöse free transfer" alt="FC Bayern Munich II" class="" /></a></td><td class="rechts hauptlink"><a href="/grant-leon-ranos/marktwertverlauf/spieler/574201">€500k</a></td></tr>
+<tr class="odd">
+<td class="zentriert rueckennummer bg_Sturm" title="Attack"><div class=rn_nummer>13</div></td><td class="posrela"><span class="wechsel-kader-wappen hide-for-small"><a title="Returned after loan spell with Karlsruher SC; date: Jun 30, 2026; fee: End of loan" href="/karlsruher-sc/startseite/verein/48/saison_id/2025"><img src="https://img.a.transfermarkt.technology/wappen/kaderquad/48.png?lm=4711" title="Karlsruher SC" alt="Karlsruher SC" class="" /></a></span><a title="Returned after loan spell with Karlsruher SC; date: Jun 30, 2026; fee: End of loan" class="hide-for-small" href="/karlsruher-sc/startseite/verein/48/saison_id/2025"><img src="/images/icons/rueckkehr_beta_kader.png" class="wechsel-symbol" width="19px" height="19px" /></a>
+<table class="inline-table">
+    <tr>
+        <td rowspan="2">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="https://img.a.transfermarkt.technology/portrait/medium/1073997-1786991344.jpg?lm=4711" title="Shio Fukuda" alt="Shio Fukuda" class="bilderrahmen-fixed lazy lazy" />        </td>
+        <td class="hauptlink">
+            <a href="/shio-fukuda/profil/spieler/1073997">
+                Shio Fukuda            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Centre-Forward        </td>
+    </tr>
+</table>
+</td><td class="zentriert">Apr 8, 2004 (21)</td><td class="zentriert"><img src="https://img.a.transfermarkt.technology/flagge/verysmall/77.png?lm=4711" title="Japan" alt="Japan" class="flaggenrahmen" /></td><td class="zentriert"><a title="Karlsruher SC" href="/karlsruher-sc/startseite/verein/48"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/48.png?lm=4711" title="Karlsruher SC" alt="Karlsruher SC" class="" /></a></td><td class="zentriert">5 ft 10 in</td><td class="zentriert">right</td><td class="zentriert">Jan 15, 2024</td><td class="zentriert"><a title="Borussia Mönchengladbach II: Ablöse -" href="/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2023"><img src="https://img.a.transfermarkt.technology/wappen/verysmall/1006.png?lm=4711" title="Borussia Mönchengladbach II" alt="Borussia Mönchengladbach II" class="" /></a></td><td class="rechts hauptlink"><a href="/shio-fukuda/marktwertverlauf/spieler/1073997">€500k</a></td></tr>
+</tbody>
+</table>
+<div class="keys" style="display:none" title="/borussia-monchengladbach/kader/verein/18/saison_id/2024/plus/1"><span>33</span><span>1</span><span>42</span><span>21</span><span>3</span><span>30</span><span>5</span><span>2</span><span>26</span><span>20</span><span>29</span><span>-</span><span>8</span><span>16</span><span>39</span><span>-</span><span>-</span><span>27</span><span>10</span><span>7</span><span>-</span><span>25</span><span>38</span><span>9</span><span>19</span><span>34</span><span>11</span><span>14</span><span>31</span><span>-</span><span>13</span></div>
+</div>        </div>
+            </div>
+        </div>
+    </div>
+
+<script async src="/js/custom/tm-track-links.min.js" type="module"></script>
+<div class="werbung ad-placement-note werbung-fullsize_contentad" data-ad-placement-note="Advertisement">
+  <div id="div-gpt-ad-bottom_banner" style="min-width: 970px; min-height: 250px;"></div>
+</div>
+        </main>
+        <footer class="tm-footer">
+               <section class="tm-footer__section-quick-links">
+        <strong class="tm-footer__headline tm-footer__headline--large">
+            Quick Links        </strong>
+        <div class="tm-footer__link-wrapper">
+            <a href="/spieler-statistik/wertvollstespieler/marktwertetop"
+               onclick="tmEvent('footer', 'quick_links', '/spieler-statistik/wertvollstespieler')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Most valuable players in the world            </a>
+            <a href="/statistik/neuestetransfers"
+                onclick="tmEvent('footer', 'quick_links', '/statistik/neuestetransfers')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Latest transfers            </a>
+            <a href="/geruechte/aktuellegeruechte/statistik"
+                onclick="tmEvent('footer', 'quick_links', '/statistik/aktuellegeruechte')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Latest rumours            </a>
+            <a href="/spieler-statistik/marktwertaenderungen/marktwertetop"
+                onclick="tmEvent('footer', 'quick_links', '/spieler-statistik/marktwertaenderungen/marktwertetop')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Latest market value updates            </a>
+            <a href="/statistik/weltrangliste"
+                onclick="tmEvent('footer', 'quick_links', '/statistik/weltrangliste')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                FIFA World ranking            </a>
+                        <a href="/online-betting/sportsbook/"
+                onclick="tmEvent('footer', 'quick_links', '/online-betting/sportsbook/')"
+               class="tm-footer__link tm-footer__link--arrow"
+            >
+                Online Sportsbooks            </a>
+                    </div>
+    </section>
+                <section class="tm-footer__section-involved">
+            <strong class="tm-footer__headline tm-footer__headline--large">
+                Be Involved            </strong>
+            <div class="tm-footer__link-wrapper">
+                <a href="/intern/paten"
+                    onclick="tmEvent('footer', 'be_involved', 'mods_data_scouts')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Mods & Data Scouts                </a>
+                <a href="/profil/bewerbung"
+                    onclick="tmEvent('footer', 'be_involved', 'apply_mod_datascout')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Apply as Mod or Datascout                </a>
+                <a href="/intern/elfGebote"
+                    onclick="tmEvent('footer', 'be_involved', '11_commandments')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    11 commandments                </a>
+                <a href="/intern/fehlermelden"
+                    onclick="tmEvent('footer', 'be_involved', 'found_mistake')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    Found a mistake?                </a>
+            </div>
+        </section>
+        <section class="tm-footer__section-career">
+            <strong class="tm-footer__headline tm-footer__headline--large">
+                Career            </strong>
+            <div class="tm-footer__link-wrapper">
+                                <a href="/intern/tmteam"
+                   class="tm-footer__link tm-footer__link--arrow"
+                   onclick="tmEvent('footer', 'career', 'contact')"
+                >
+                    Contact                </a>
+            </div>
+        </section>
+        <section class="tm-footer__section-about">
+            <strong class="tm-footer__headline tm-footer__headline--large">
+                About Us            </strong>
+            <div class="tm-footer__link-wrapper">
+                <a href="/intern/tmteam"
+                   onclick="tmEvent('footer', 'about_us', 'tm_team')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    TM-Team                </a>
+                <a href="/intern/faq"
+                   onclick="tmEvent('footer', 'about_us', 'faq')"
+                   class="tm-footer__link tm-footer__link--arrow"
+                >
+                    FAQ                </a>
+            </div>
+        </section>
+            <section class="tm-footer__section-social">
+        <strong class="tm-footer__headline
+            ">
+            Social media        </strong>
+        <div class="tm-footer__social-wrapper">
+                        <a href="https://www.instagram.com/transfermarkt.us"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'instagram')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/instaRebrush.svg"
+                         alt="instagram"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.facebook.com/transfermarkt.us"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'facebook')">
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/fbRebrush.svg"
+                         alt="facebook"
+                         width="25"
+                         height="25"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.whatsapp.com/channel/0029Va6Kevx47XeF0gE99J35"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'whatsapp')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/whatsappRebrush.svg"
+                         alt="whatsapp"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://twitter.com/TMuk_news"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'x')">
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/twitter_rebrush.svg"
+                         alt="x"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.threads.net/@transfermarkt.us"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'threads')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/threadsRebrush.svg"
+                         alt="threads"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.tiktok.com/@transfermarkt"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'tiktok')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/tiktokRebrush.svg"
+                         alt="tiktok"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                <a href="https://www.youtube.com/@TransfermarktEnglish"
+                   target="_blank"
+                   class="tm-footer__link-social"
+                   onclick="tmEvent('footer', 'social_media', 'youtube')"
+                >
+                    <img src="https://tmsi.akamaized.net/icons/socialMedia/RebrushYoutube.svg"
+                         alt="youtube"
+                         width="28"
+                         height="28"
+                         class="tm-footer__icon-social"
+                    >
+                </a>
+                        </div>
+    </section>
+                </footer>
+                <div id="menue_overlay"></div>
+    </div>
+    <section class="tm-footer__mobile tm-footer__transfermarkt-info">
+        <section class="tm-footer__section-desktop-width">
+                            <section class="tm-footer__section-company-links">
+                    <span class="tm-footer__headline tm-footer__headline--medium">
+                        Transfermarkt Company Projects                    </span>
+                    <div class="tm-footer__project-wrapper">
+                        <a href="/wahretabelle"
+                           onclick="tmEvent('footer', 'projects', 'wahretabelle')"
+                           class="tm-footer__link"
+                        >
+                            Wahretabelle                        </a>
+                        <a href="https://www.soccerdonna.de/"
+                           onclick="tmEvent('footer', 'projects', 'soccerdonna')"
+                           class="tm-footer__link"
+                        >
+                            Soccerdonna.de                        </a>
+                        <a href="https://scoutastic.com/de/"
+                           onclick="tmEvent('footer', 'projects', 'scoutastic')"
+                           class="tm-footer__link"
+                        >
+                            Scoutastic.com                        </a>
+                    </div>
+                </section>
+                        <section class="tm-footer__section-company-infos">
+                <span class="tm-footer__headline tm-footer__headline--medium">&copy; Transfermarkt <span id="currentYear">2026</span></span>
+                <div class="tm-footer__company-wrapper">
+                    <a
+                    href="/intern/impressum"
+                    class="tm-footer__link tm-footer__link--blue"
+                    onclick="tmEvent('footer', 'officials', 'impressum')"
+                    >
+                        Legal notice                    </a>
+                    <a
+                        href="/intern/web/datenschutz"
+                        class="tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'data_protection')"
+                        >
+                        Data protection                    </a>
+                    <a
+                        href="javascript:void(0)"
+                        class="cmp-link tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'privacy')"
+                    >
+                        Privacy                    </a>
+                    <a
+                        href="javascript:void(0)"
+                        class="revoke-tracking tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'tracking_revocation')"
+                    >
+                        Revoke Tracking                    </a>
+                    <a
+                        href="/intern/anb"
+                        class="tm-footer__link tm-footer__link--blue"
+                        onclick="tmEvent('footer', 'officials', 'general_conduct_of_use')"
+                        >
+                        Site policy                    </a>
+                                    </div>
+            </section>
+        </section>
+    </section>
+    <script type="text/javascript">
+	if(typeof(adet) == "boolean" && adet == false){
+		img_src="/static/singlepictures/jk99hhfsdh209nbnkjldgh90sghfsdlk";
+	} else {
+		img_src="/static/singlepictures/jku90whjlkjbwbta1g4b8h89fh8sgh8d";
+	}
+	var elem = document.createElement("img");
+	document.body.appendChild(elem);
+	elem.src = img_src;
+</script>
+
+    <tm-consent type="adition" no-checkbox embed="PHNjcmlwdCBzcmM9Imh0dHBzOi8vY3JlYXRpdmUtY2RuLm9kZHNzZXJ2ZS5jb20vbG9hZGVyLmpzP3B1Ymxpc2hlcj10bSIgYXN5bmM9ImFzeW5jIj48L3NjcmlwdD4="></tm-consent><tm-consent type='adrenalead' no-checkbox embed='PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICAgICB3aW5kb3cuX25BZHpxPXdpbmRvdy5fbkFkenF8fFtdOyhmdW5jdGlvbigpewogICAgICAgICAgICB3aW5kb3cuX25BZHpxLnB1c2goWydzZXRJZHMnLCc2OWE2ZjQxMzI0OTZkMmQxJ10pOwogICAgICAgICAgICB2YXIgZT0naHR0cHM6Ly9ub3RpZnB1c2guY29tL3NjcmlwdHMvJzsKICAgICAgICAgICAgdmFyIHQ9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7CiAgICAgICAgICAgIHQudHlwZT0ndGV4dC9qYXZhc2NyaXB0JzsKICAgICAgICAgICAgdC5kZWZlcj10cnVlOwogICAgICAgICAgICB0LmFzeW5jPXRydWU7CiAgICAgICAgICAgIHQuc3JjPWUrJ25hZHotc2RrLmpzJzsKICAgICAgICAgICAgdmFyIHM9ZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgICAgICAgICBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHQscyl9KSgpOwogICAgICAgIDwvc2NyaXB0Pg=='></tm-consent>    
+        <tm-modal id="tm-modal-revoke-tracking" additionalClose="Close">
+        <div class="tm-modal__headline">Revoke Tracking</div>
+        <p class="tm-modal__text">Sie haben erfolgreich Ihre Einwilligung in die Nutzung von Transfermarkt mit Tracking und Cookies widerrufen. Sie können sich jetzt zwischen dem Contentpass-Abo und der Nutzung mit personalisierter Werbung, Cookies und Tracking entscheiden.</p>
+    </tm-modal>
+        
+
+<tm-consent type="footballco" no-checkbox embed="PHNjcmlwdCAgc3JjPSJodHRwczovL2xuZ3RkLmNvbS90cmFuc2Zlcm1hcmt0LXVzLmpzIiBhc3luYz0iYXN5bmMiPjwvc2NyaXB0Pg=="></tm-consent>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/subnavigation/bundle.js"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/assets/aa69c6e9c51f1e811847082c63633956/gridview/jquery.yiigridview.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmssl.akamaized.net/js/custom/vendors.min.js?lm=1788866282"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/domain-switcher/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/quick-select-bar/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/userbox/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/live-match-count/bundle.js"></script>
+<script type="text/javascript" src="https://tmsi.akamaized.net/js/svelte-components/modal/bundle.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+	var loginUrl='/profil/login';
+	var onlyDE = '';
+	var onlyMobile = '';
+	var onlyTablet = '';
+	var getUserID = '';
+
+jQuery(function($) {
+jQuery('#yw1').yiiGridView({'ajaxUpdate':['yw1'],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'grid\x2Dview\x2Dloading','filterClass':'filters','tableClass':'items','selectableRows':1,'enableHistory':false,'updateSelector':'\x7Bpage\x7D,\x20\x7Bsort\x7D','filterSelector':'\x7Bfilter\x7D','afterAjaxUpdate':function() {window.LazyLoadInstance.update(); tmTrackingAndAds();  trackLinks();  document.dispatchEvent(new CustomEvent("tmInitTooltip"));}});
+});
+/*]]>*/
+</script>
+</body>
+
+</html>
