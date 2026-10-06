@@ -1,2 +1,4 @@
 downloaded_files/
 .venv/
+__pycache__/
+.pytest_cache/
