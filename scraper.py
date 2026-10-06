@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 import soccerdata as sd
 
-SEASONS = ["2223", "2324", "2425", "2526"]
+SEASONS = ["2122", "2223", "2324", "2425", "2526"]
 LEAGUE = "Big 5 European Leagues Combined"
 RAW_DIR = Path("data/raw")
 OUT = Path("data/fbref_players.csv")
