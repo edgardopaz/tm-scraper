@@ -2,3 +2,4 @@ numpy==2.5.2
 pandas==3.0.5
 soccerdata==1.9.1
 pytest==9.1.1
+beautifulsoup4==4.15.0
