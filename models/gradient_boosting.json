@@ -1,0 +1,36 @@
+{
+  "mae_eur": 6769599.308127869,
+  "median_absolute_percentage_error": 0.5081290241090162,
+  "log_r2": 0.614691328552019,
+  "train_rows": 10737,
+  "test_rows": 2658,
+  "holdout_season": "2526",
+  "train_seasons": [
+    "2122",
+    "2223",
+    "2324",
+    "2425"
+  ],
+  "dropped_nonpositive": 18,
+  "features": [
+    "age_",
+    "Playing Time_MP",
+    "Playing Time_Starts",
+    "Playing Time_Min",
+    "Playing Time_90s",
+    "Performance_Gls",
+    "Performance_Ast",
+    "Performance_G+A",
+    "Performance_G-PK",
+    "Performance_PK",
+    "Performance_PKatt",
+    "Performance_CrdY",
+    "Performance_CrdR",
+    "Per90_Gls",
+    "Per90_Ast",
+    "Per90_G+A",
+    "n_clubs",
+    "pos_primary",
+    "league_code"
+  ]
+}

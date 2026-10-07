@@ -1,0 +1,109 @@
+{
+  "mae_eur": 14360500.902513428,
+  "median_absolute_percentage_error": 0.5888753599022158,
+  "log_r2": 0.46089171356298964,
+  "train_rows": 10737,
+  "test_rows": 2658,
+  "holdout_season": "2526",
+  "train_seasons": [
+    "2122",
+    "2223",
+    "2324",
+    "2425"
+  ],
+  "dropped_nonpositive": 18,
+  "numeric_features": [
+    "age_from_25",
+    "age_from_25_sq",
+    "Playing Time_90s",
+    "Per90_Gls",
+    "Per90_Ast",
+    "Performance_CrdY",
+    "Performance_CrdR",
+    "n_clubs"
+  ],
+  "position_reference": "MF",
+  "league_reference": "GB1",
+  "coefficients": [
+    {
+      "feature": "age_from_25",
+      "log_coefficient": -0.11550979938584659,
+      "value_multiplier": 0.8909118418054086
+    },
+    {
+      "feature": "age_from_25_sq",
+      "log_coefficient": -0.34473790608531546,
+      "value_multiplier": 0.7084059980397932
+    },
+    {
+      "feature": "Playing Time_90s",
+      "log_coefficient": 0.7521307178530555,
+      "value_multiplier": 2.12151555530408
+    },
+    {
+      "feature": "Per90_Gls",
+      "log_coefficient": 0.2108470821964777,
+      "value_multiplier": 1.2347235294142853
+    },
+    {
+      "feature": "Per90_Ast",
+      "log_coefficient": 0.06225833990939664,
+      "value_multiplier": 1.0642372441709917
+    },
+    {
+      "feature": "Performance_CrdY",
+      "log_coefficient": -0.03181079663621334,
+      "value_multiplier": 0.9686898441187269
+    },
+    {
+      "feature": "Performance_CrdR",
+      "log_coefficient": 0.01783639355918735,
+      "value_multiplier": 1.017996411994935
+    },
+    {
+      "feature": "n_clubs",
+      "log_coefficient": 0.07662590527479379,
+      "value_multiplier": 1.0796381139136484
+    },
+    {
+      "feature": "position DF vs MF",
+      "log_coefficient": -0.15743572521698526,
+      "value_multiplier": 0.854331723829961
+    },
+    {
+      "feature": "position FW vs MF",
+      "log_coefficient": -0.036311399114142155,
+      "value_multiplier": 0.9643399521157114
+    },
+    {
+      "feature": "position GK vs MF",
+      "log_coefficient": -0.48327283316863845,
+      "value_multiplier": 0.6167615274144127
+    },
+    {
+      "feature": "league ES1 vs GB1",
+      "log_coefficient": -0.9712366645195294,
+      "value_multiplier": 0.37861452931402845
+    },
+    {
+      "feature": "league FR1 vs GB1",
+      "log_coefficient": -1.1247393259692458,
+      "value_multiplier": 0.3247371068567907
+    },
+    {
+      "feature": "league IT1 vs GB1",
+      "log_coefficient": -0.8883010418189287,
+      "value_multiplier": 0.4113540327093479
+    },
+    {
+      "feature": "league L1 vs GB1",
+      "log_coefficient": -0.8580924433630203,
+      "value_multiplier": 0.42397005834140206
+    },
+    {
+      "feature": "intercept",
+      "log_coefficient": 16.17066087786906,
+      "value_multiplier": 10539713.071288731
+    }
+  ]
+}

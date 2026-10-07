@@ -1,0 +1,16 @@
+{
+  "mae_eur": 10263619.262603462,
+  "median_absolute_percentage_error": 0.775,
+  "log_r2": -0.018174376252016344,
+  "median_value_eur": 4500000.0,
+  "train_rows": 10737,
+  "test_rows": 2658,
+  "holdout_season": "2526",
+  "train_seasons": [
+    "2122",
+    "2223",
+    "2324",
+    "2425"
+  ],
+  "dropped_nonpositive": 18
+}
